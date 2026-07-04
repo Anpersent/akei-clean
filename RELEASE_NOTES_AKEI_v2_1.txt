@@ -1,0 +1,20 @@
+AKEI v2.1 — first real content/SEO upgrade
+
+Changed:
+- Reworked first screen for stronger clarity and sunlight readability.
+- Added professional subheadline and service keywords.
+- Added trust strip: diagnose, preserve, repair, ship.
+- Added Engineering Position block: When Others Give Up.
+- Improved service descriptions with less advertising and more engineering tone.
+- Added SEO meta tags, canonical, Open Graph, Twitter card and Schema.org JSON-LD.
+- Added clean robots.txt with sitemap reference.
+- Added valid sitemap.xml.
+- Added 404.html.
+- Added Cloudflare Pages _headers security basics.
+- Preserved Formspree form action and existing admin/_data structure.
+
+Next:
+- Upload all files to GitHub akei-clean.
+- Let Cloudflare deploy.
+- Check /robots.txt, /sitemap.xml and /404.html.
+- Then run Google Search Console URL inspection.
