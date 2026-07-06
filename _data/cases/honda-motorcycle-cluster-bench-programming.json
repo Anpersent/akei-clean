@@ -1,0 +1,18 @@
+{
+  "title": "Bench Programming — Honda Motorcycle Cluster",
+  "car": "Honda Motorcycle Instrument Cluster",
+  "service": "Motorcycle Dashboard Programming",
+  "description": "Bench-mode programming of a Honda motorcycle instrument cluster. Direct PCB connections were made for secure memory access, the original data was read and verified, then the cluster was programmed and tested on the bench.",
+  "tags": [
+    "Honda",
+    "motorcycle",
+    "cluster",
+    "bench programming",
+    "EEPROM"
+  ],
+  "image": "",
+  "image_alt": "Honda motorcycle cluster bench programming EEPROM service AKEI Latvia",
+  "meta_description": "Honda motorcycle instrument cluster bench programming and EEPROM service with final functional verification.",
+  "date": "2026-07-06",
+  "published": true
+}
