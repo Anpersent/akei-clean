@@ -1,4 +1,12 @@
 [
   "bmw-e60-ecu-done.json",
-  "honda_Goldwing_ECU.json"
+  "honda_Goldwing_ECU.json",
+  "beissbarth-microtec-510-main-board-repair.json",
+  "corghi-em7070-optical-system-repair.json",
+  "mercedes-c200-adblue-software-modification.json",
+  "honda-motorcycle-cluster-odometer-correction.json",
+  "honda-motorcycle-cluster-bench-programming.json",
+  "yamaha-motorcycle-cluster-mileage-calibration.json",
+  "space-arn84bth-arn800-measuring-head-repair.json",
+  "beissbarth-servomat-ms63-tyre-changer-repair.json"
 ]
