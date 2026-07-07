@@ -1,0 +1,37 @@
+{
+  "title": "Electrical Retrofit — Nardini MS175E Lathe",
+  "car": "Nardini MS175E Industrial Lathe",
+  "service": "Industrial Automation / Electrical Retrofit",
+  "description": "A Brazilian-made Nardini MS175E industrial lathe required repair of the automation system and adaptation of the electrical control cabinet to European standards. The work included diagnostics of the control circuit, rewiring, replacement and correction of electrical components, safety-related improvements and final functional testing of the machine.",
+  "tags": [
+    "Industrial",
+    "Nardini",
+    "MS175E",
+    "Lathe",
+    "Automation",
+    "Electrical retrofit",
+    "Control cabinet",
+    "Machine repair"
+  ],
+  "equipment": [
+    "Control cabinet diagnostics",
+    "Electrical retrofit",
+    "Automation repair",
+    "Bridge rectifier",
+    "Functional testing"
+  ],
+  "status": "Successfully completed",
+  "image": "/images/cases/nardini-ms175e-lathe-electrical-retrofit-01.webp",
+  "gallery": [
+    "/images/cases/nardini-ms175e-lathe-electrical-retrofit-01.webp",
+    "/images/cases/nardini-ms175e-lathe-electrical-retrofit-02.webp",
+    "/images/cases/nardini-ms175e-lathe-electrical-retrofit-03.webp",
+    "/images/cases/nardini-ms175e-lathe-electrical-retrofit-04.webp",
+    "/images/cases/nardini-ms175e-lathe-electrical-retrofit-05.webp",
+    "/images/cases/nardini-ms175e-lathe-electrical-retrofit-06.webp"
+  ],
+  "image_alt": "Nardini MS175E industrial lathe electrical retrofit and automation repair by AKEI Latvia",
+  "meta_description": "Electrical retrofit and automation repair for Nardini MS175E industrial lathe. Control cabinet diagnostics, rewiring and adaptation to European standards by AKEI Latvia.",
+  "date": "2026-07-07",
+  "published": true
+}
