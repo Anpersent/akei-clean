@@ -1,0 +1,24 @@
+{
+  "title": "Instrument Cluster Correction — Honda Motorcycle",
+  "car": "Honda Motorcycle Instrument Cluster",
+  "service": "Motorcycle Instrument Cluster Service",
+  "description": "Odometer data correction for a Honda motorcycle instrument cluster. The cluster was disassembled, electronic memory was accessed, data was corrected and verified, and the dashboard was functionally tested before return.",
+  "tags": [
+    "Honda",
+    "motorcycle",
+    "instrument cluster",
+    "dashboard",
+    "odometer"
+  ],
+  "image": "/images/cases/honda-motorcycle-cluster-odometer-correction-01.webp",
+  "gallery": [
+    "/images/cases/honda-motorcycle-cluster-odometer-correction-01.webp",
+    "/images/cases/honda-motorcycle-cluster-odometer-correction-02.webp",
+    "/images/cases/honda-motorcycle-cluster-odometer-correction-03.webp",
+    "/images/cases/honda-motorcycle-cluster-odometer-correction-04.webp"
+  ],
+  "image_alt": "Honda motorcycle instrument cluster odometer correction AKEI Latvia",
+  "meta_description": "Honda motorcycle instrument cluster service with memory access, data correction and functional testing.",
+  "date": "2026-07-06",
+  "published": true
+}

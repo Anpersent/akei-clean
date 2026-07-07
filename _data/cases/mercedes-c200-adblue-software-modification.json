@@ -1,0 +1,24 @@
+{
+  "title": "AdBlue Software Modification — Mercedes-Benz C200",
+  "car": "Mercedes-Benz C200",
+  "service": "ECU Software Programming",
+  "description": "Software work on the engine control unit related to the AdBlue / SCR system. The ECU was identified, the original firmware was backed up, the software was modified and the control unit was safely programmed and verified after the operation.",
+  "tags": [
+    "Mercedes",
+    "C200",
+    "AdBlue",
+    "SCR",
+    "ECU programming"
+  ],
+  "image": "/images/cases/mercedes-c200-adblue-software-modification-01.webp",
+  "gallery": [
+    "/images/cases/mercedes-c200-adblue-software-modification-01.webp",
+    "/images/cases/mercedes-c200-adblue-software-modification-02.webp",
+    "/images/cases/mercedes-c200-adblue-software-modification-03.webp",
+    "/images/cases/mercedes-c200-adblue-software-modification-04.webp"
+  ],
+  "image_alt": "Mercedes C200 AdBlue SCR ECU software programming AKEI Latvia",
+  "meta_description": "Mercedes-Benz C200 AdBlue / SCR software programming and ECU verification by AKEI Latvia.",
+  "date": "2026-07-06",
+  "published": true
+}

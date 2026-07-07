@@ -1,0 +1,25 @@
+{
+  "title": "ECU Repair — Honda Goldwing GL1800",
+  "car": "Honda Goldwing GL1800",
+  "service": "Motorcycle ECU Repair",
+  "description": "The engine control unit was heavily contaminated with factory potting compound, making access to the electronic components extremely difficult. The ECU was carefully opened without damaging the PCB, defective electronic components were replaced, and all functions were fully restored. After repair, the unit passed complete functional testing and was returned to the customer in working condition.",
+  "tags": [
+    "Honda",
+    "Goldwing",
+    "GL1800",
+    "Motorcycle",
+    "ECU",
+    "Repair"
+  ],
+  "image": "/images/cases/honda_Goldwing_ECU-01.webp",
+  "gallery": [
+    "/images/cases/honda_Goldwing_ECU-01.webp",
+    "/images/cases/honda_Goldwing_ECU-02.webp",
+    "/images/cases/honda_Goldwing_ECU-03.webp",
+    "/images/cases/honda_Goldwing_ECU-04.webp"
+  ],
+  "image_alt": "Honda Goldwing GL1800 ECU repair by AKEI Latvia",
+  "meta_description": "Professional Honda Goldwing GL1800 ECU repair including PCB restoration and electronic component replacement.",
+  "date": "2026-07-06",
+  "published": true
+}
