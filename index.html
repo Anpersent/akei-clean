@@ -3,46 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AKEI — Professional Automotive Electronics Repair · ECU Cloning · Riga, Latvia</title>
-<meta name="description" content="Professional automotive electronics repair in Riga, Latvia. ECU and TCU cloning, immobilizer and key systems, EEPROM and Flash recovery, module repair and workshop equipment electronics. EU shipping available.">
-<meta name="robots" content="index, follow">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8SS3YZYRV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W8SS3YZYRV');
+</script>
+
+<title>AKEI — ECU Cloning & Automotive Electronics · Riga, Latvia</title>
+<meta name="description" content="AKEI in Riga, Latvia provides ECU cloning, immobilizer solutions, EEPROM and Flash data services, automotive electronics diagnostics and module repair.">
 <link rel="canonical" href="https://akei.lv/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0a0a0a">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://akei.lv/">
-<meta property="og:title" content="AKEI — Professional Automotive Electronics Repair">
-<meta property="og:description" content="ECU cloning, immobilizer systems, EEPROM and Flash recovery, module repair and workshop equipment electronics. Riga, Latvia. EU shipping available.">
+<meta property="og:title" content="AKEI — ECU Cloning & Automotive Electronics · Riga, Latvia">
+<meta property="og:description" content="ECU cloning, immobilizer, EEPROM/Flash data services and automotive electronics repair in Riga, Latvia.">
 <meta property="og:site_name" content="AKEI">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AKEI — Professional Automotive Electronics Repair">
-<meta name="twitter:description" content="Chip-level automotive electronics repair, ECU cloning and data recovery. Riga, Latvia. EU shipping available.">
+<meta name="twitter:title" content="AKEI — ECU Cloning & Automotive Electronics">
+<meta name="twitter:description" content="Deep-level automotive electronics. ECU/TCU/BCM cloning, immobilizer and EEPROM/Flash services.">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AutomotiveBusiness",
-  "name": "AKEI",
-  "url": "https://akei.lv/",
-  "email": "info@akei.lv",
-  "telephone": "+37129760588",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Riga",
-    "addressCountry": "LV"
-  },
-  "areaServed": ["Latvia", "European Union"],
-  "description": "Professional automotive electronics repair, ECU cloning, immobilizer systems, EEPROM and Flash recovery, module repair and workshop equipment electronics."
-}
+{"@context":"https://schema.org","@type":"AutoRepair","name":"AKEI","url":"https://akei.lv/","email":"info@akei.lv","areaServed":["Latvia","European Union"],"address":{"@type":"PostalAddress","addressLocality":"Riga","addressCountry":"LV"},"description":"ECU cloning, immobilizer solutions, EEPROM and Flash data services, automotive electronics diagnostics and module repair."}
 </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
     --black: #0a0a0a;
     --dark: #111111;
-    --panel: #161616;
-    --border: #2a2a2a;
-    --accent: #e8a020;
+    --panel: #181818;
+    --border: #333333;
+    --accent: #f0ad2e;
     --accent2: #c0392b;
-    --text: #e0e0e0;
-    --muted: #9a9a9a;
+    --text: #eeeeee;
+    --muted: #b8b8b8;
     --white: #ffffff;
   }
 
@@ -54,8 +53,10 @@
     background: var(--black);
     color: var(--text);
     font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
 
   /* NOISE OVERLAY */
@@ -66,7 +67,7 @@
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
     pointer-events: none;
     z-index: 999;
-    opacity: 0.4;
+    opacity: 0.18;
   }
 
   /* NAV */
@@ -79,7 +80,7 @@
     justify-content: space-between;
     padding: 0 48px;
     height: 64px;
-    background: rgba(10,10,10,0.92);
+    background: rgba(10,10,10,0.97);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
   }
@@ -178,9 +179,9 @@
   .hero-sub {
     margin-top: 32px;
     max-width: 560px;
-    font-size: 16px;
-    line-height: 1.7;
-    color: var(--muted);
+    font-size: 18px;
+    line-height: 1.75;
+    color: var(--text);
     opacity: 0;
     animation: fadeUp 0.8s 0.6s forwards;
   }
@@ -222,65 +223,6 @@
   }
 
   .btn-secondary:hover { color: var(--white); border-color: var(--white); }
-
-
-
-  .hero-kicker {
-    margin-top: 28px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(28px, 4vw, 54px);
-    line-height: 1;
-    letter-spacing: 1px;
-    color: var(--white);
-    opacity: 0;
-    animation: fadeUp 0.8s 0.55s forwards;
-  }
-
-  .hero-specialties {
-    margin-top: 14px;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 12px;
-    line-height: 1.7;
-    letter-spacing: 1.5px;
-    color: var(--accent);
-    text-transform: uppercase;
-    opacity: 0;
-    animation: fadeUp 0.8s 0.62s forwards;
-  }
-
-  .trust-strip {
-    margin-top: 28px;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1px;
-    max-width: 900px;
-    background: var(--border);
-    opacity: 0;
-    animation: fadeUp 0.8s 0.72s forwards;
-  }
-
-  .trust-item {
-    background: rgba(22,22,22,0.95);
-    padding: 18px 18px;
-    border-top: 2px solid rgba(232,160,32,0.35);
-  }
-
-  .trust-item strong {
-    display: block;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 1.5px;
-    color: var(--accent);
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-
-  .trust-item span {
-    display: block;
-    font-size: 13px;
-    line-height: 1.55;
-    color: var(--text);
-  }
 
   .hero-counter {
     position: absolute;
@@ -383,7 +325,7 @@
   .services-intro {
     font-size: 16px;
     line-height: 1.8;
-    color: var(--muted);
+    color: var(--text);
     max-width: 440px;
     align-self: end;
   }
@@ -884,47 +826,6 @@
 
   .case-card:hover .case-img { filter: grayscale(0%); }
 
-
-  .case-photo-wrap {
-    background: var(--dark);
-  }
-
-  .case-main-img {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    display: block;
-    filter: grayscale(20%);
-  }
-
-  .case-gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background: var(--border);
-    border-top: 1px solid var(--border);
-  }
-
-  .case-thumb {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    display: block;
-    filter: grayscale(30%);
-    opacity: 0.85;
-    cursor: pointer;
-    border: 0;
-  }
-
-  .case-thumb:hover,
-  .case-thumb.active {
-    filter: grayscale(0%);
-    opacity: 1;
-    outline: 2px solid var(--accent);
-    outline-offset: -2px;
-  }
-
-
   .case-img-placeholder {
     width: 100%;
     aspect-ratio: 16/9;
@@ -983,66 +884,7 @@
     .nav-links { display: none; }
     section { padding: 80px 24px; }
     .hero { padding: 0 24px 80px; }
-  
-
-  .hero-kicker {
-    margin-top: 28px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(28px, 4vw, 54px);
-    line-height: 1;
-    letter-spacing: 1px;
-    color: var(--white);
-    opacity: 0;
-    animation: fadeUp 0.8s 0.55s forwards;
-  }
-
-  .hero-specialties {
-    margin-top: 14px;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 12px;
-    line-height: 1.7;
-    letter-spacing: 1.5px;
-    color: var(--accent);
-    text-transform: uppercase;
-    opacity: 0;
-    animation: fadeUp 0.8s 0.62s forwards;
-  }
-
-  .trust-strip {
-    margin-top: 28px;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1px;
-    max-width: 900px;
-    background: var(--border);
-    opacity: 0;
-    animation: fadeUp 0.8s 0.72s forwards;
-  }
-
-  .trust-item {
-    background: rgba(22,22,22,0.95);
-    padding: 18px 18px;
-    border-top: 2px solid rgba(232,160,32,0.35);
-  }
-
-  .trust-item strong {
-    display: block;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 1.5px;
-    color: var(--accent);
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-
-  .trust-item span {
-    display: block;
-    font-size: 13px;
-    line-height: 1.55;
-    color: var(--text);
-  }
-
-  .hero-counter { display: none; }
+    .hero-counter { display: none; }
     .scroll-indicator { display: none; }
     .services-header { grid-template-columns: 1fr; }
     .services-grid { grid-template-columns: 1fr; }
@@ -1059,22 +901,27 @@
     .footer-socials { flex-wrap: wrap; justify-content: center; }
   }
 
-  .case-link {
-    display: inline-block;
-    margin-top: 18px;
-    padding: 10px 14px;
-    border: 1px solid var(--accent);
-    color: var(--accent);
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-decoration: none;
+
+  /* AKEI v2 readability and reliability hardening */
+  a { text-underline-offset: 3px; }
+  .service-desc, .step-desc, .why-list li, .geo-text p, .case-desc, .contact-note { color: var(--text) !important; }
+  .nav-links a, .btn-secondary, .scroll-text, .counter-label, .case-car, footer, footer a { color: var(--muted) !important; }
+  .service-card, .case-card, .contact-form { border: 1px solid var(--border); box-shadow: 0 18px 60px rgba(0,0,0,0.28); }
+  .btn-primary, .form-submit, .nav-cta { font-weight: 700; }
+  .form-input, .form-select, .form-textarea { color: var(--white) !important; background: #101010 !important; }
+
+  @media (max-width: 700px) {
+    .hero h1 { font-size: clamp(56px, 17vw, 96px); line-height: 0.92; }
+    .hero-sub { font-size: 17px; line-height: 1.65; }
+    .hero-actions { flex-direction: column; align-items: stretch; }
+    .btn-primary, .btn-secondary { text-align: center; }
+    nav { height: 60px; }
+    .nav-logo { font-size: 26px; }
   }
 
-  .case-link:hover {
-    background: var(--accent);
-    color: var(--dark);
+  @media (prefers-contrast: more) {
+    :root { --text: #ffffff; --muted: #e2e2e2; --border: #5a5a5a; --accent: #ffc24a; }
+    body::before, .hero-grid { display: none; }
   }
 
 </style>
@@ -1102,19 +949,9 @@
 
   <h1>WE READ<br>WHAT OTHERS<br><em>CAN'T.</em></h1>
 
-  <div class="hero-kicker">Professional Automotive Electronics Repair</div>
-  <div class="hero-specialties">ECU · TCU · BCM · Instrument Clusters · Workshop Equipment · EEPROM · Flash Recovery</div>
-
   <p class="hero-sub">
-    We diagnose and recover automotive control units at component and data level. The goal is not to replace expensive modules blindly, but to preserve original data and restore the unit correctly whenever repair is technically reasonable.
+    Deep-level automotive electronics. ECU/TCU/BCM cloning, immobilizer bypass, EEPROM & Flash read/write. No dealers. No guesswork. Clean work with original chips.
   </p>
-
-  <div class="trust-strip" aria-label="AKEI core strengths">
-    <div class="trust-item"><strong>01 / Diagnose</strong><span>Measurement before assumptions. No random part swapping.</span></div>
-    <div class="trust-item"><strong>02 / Preserve</strong><span>Original data is treated as the most valuable part of the module.</span></div>
-    <div class="trust-item"><strong>03 / Repair</strong><span>Component-level work on modules and workshop equipment electronics.</span></div>
-    <div class="trust-item"><strong>04 / Ship</strong><span>Riga based. Modules can be sent from across Europe.</span></div>
-  </div>
 
   <div class="hero-actions">
     <a href="#contact" class="btn-primary">Describe Your Case</a>
@@ -1123,7 +960,7 @@
 
   <div class="hero-counter">
     <div class="counter-item">
-      <div class="counter-num">25<span>+</span></div>
+      <div class="counter-num">10<span>+</span></div>
       <div class="counter-label">Years Experience</div>
     </div>
     <div class="counter-item">
@@ -1168,50 +1005,6 @@
   </div>
 </div>
 
-
-<!-- POSITIONING -->
-<section class="why" id="engineering">
-  <div class="why-grid">
-    <div class="why-points">
-      <div class="section-tag">Engineering Position</div>
-      <div style="margin-bottom: 48px;">
-        <div class="section-title">WHEN<br>OTHERS<br>GIVE UP.</div>
-      </div>
-
-      <div class="why-point">
-        <div class="why-icon">→</div>
-        <div class="why-text">
-          <h4>We don't replace. We recover.</h4>
-          <p>The first goal is to understand whether the original module and its data can be saved before recommending replacement.</p>
-        </div>
-      </div>
-
-      <div class="why-point">
-        <div class="why-icon">→</div>
-        <div class="why-text">
-          <h4>We don't guess. We diagnose.</h4>
-          <p>Every case starts with symptoms, measurements and data analysis. Guesswork is expensive and usually wrong.</p>
-        </div>
-      </div>
-
-      <div class="why-point">
-        <div class="why-icon">→</div>
-        <div class="why-text">
-          <h4>We don't erase. We preserve.</h4>
-          <p>Original EEPROM and Flash data can be the difference between a simple repair and a vehicle that needs dealer-level recovery.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="why-statement">
-      <div class="why-big">DATA<br>IS THE<br><em>VALUE.</em></div>
-      <p class="why-quote">
-        A control unit is not just a box with components. It contains identity, configuration and history. That is why we treat data recovery as seriously as the hardware repair itself.
-      </p>
-    </div>
-  </div>
-</section>
-
 <!-- SERVICES -->
 <section class="services" id="services">
   <div class="services-header">
@@ -1220,7 +1013,7 @@
       <div class="section-title">SERVICES</div>
     </div>
     <p class="services-intro">
-      Specialised automotive electronics work for cases where replacement is expensive, coding is complicated or original data must be preserved. Each job starts with diagnosis, not assumptions.
+      Specialised automotive electronics work. Each job is measured, diagnosed, and executed precisely — not approximated. We work with the data, not around it.
     </p>
   </div>
 
@@ -1228,7 +1021,7 @@
     <div class="service-card">
       <div class="service-num">01</div>
       <div class="service-name">ECU / TCU Cloning</div>
-      <p class="service-desc">Engine and transmission control unit cloning for damaged, waterlogged or non-communicating modules. Original data is extracted and transferred to a suitable donor whenever the source memory can be recovered.</p>
+      <p class="service-desc">Full duplication of engine and transmission control units. Damaged, waterlogged, or dead unit — data is transferred to a donor with precision. No dealer re-coding required.</p>
       <div class="service-tags">
         <span class="tag">ECU</span>
         <span class="tag">TCU</span>
@@ -1240,7 +1033,7 @@
     <div class="service-card">
       <div class="service-num">02</div>
       <div class="service-name">IMMO & Key Systems</div>
-      <p class="service-desc">Immobilizer and key-system work for CAS, EWS, BSI, BCM and related modules. Synchronisation, data transfer and IMMO solutions are handled carefully at data level.</p>
+      <p class="service-desc">Immobilizer bypass, IMMO-off, key synchronization. CAS, EWS, BSI, BCM — we work at chip level, not through OBD shortcuts.</p>
       <div class="service-tags">
         <span class="tag">CAS</span>
         <span class="tag">EWS</span>
@@ -1252,7 +1045,7 @@
     <div class="service-card">
       <div class="service-num">03</div>
       <div class="service-name">EEPROM / Flash</div>
-      <p class="service-desc">EEPROM and Flash reading, backup, recovery and programming. VIN, configuration and module identity data are handled precisely with backups before changes.</p>
+      <p class="service-desc">Read, write, backup and restore EEPROM and Flash memory. Mileage data, VIN, configuration — extracted and rewritten accurately.</p>
       <div class="service-tags">
         <span class="tag">EEPROM</span>
         <span class="tag">FLASH</span>
@@ -1263,7 +1056,7 @@
     <div class="service-card">
       <div class="service-num">04</div>
       <div class="service-name">Module Repair</div>
-      <p class="service-desc">Component-level repair of ECU, SRS, ABS, AdBlue and other control modules. Power supplies, drivers, CAN transceivers and damaged circuits are measured before replacement.</p>
+      <p class="service-desc">Component-level repair of ECU, SRS, ABS, AdBlue and other control modules. Power drivers, CAN transceivers, gate drivers — diagnosed and replaced.</p>
       <div class="service-tags">
         <span class="tag">SRS</span>
         <span class="tag">ABS</span>
@@ -1275,7 +1068,7 @@
     <div class="service-card">
       <div class="service-num">05</div>
       <div class="service-name">Autoservice Equipment</div>
-      <p class="service-desc">Electronics repair for professional workshop equipment: wheel balancers, brake testers, emission testers, alignment systems and diagnostic devices.</p>
+      <p class="service-desc">Calibration and electronics repair for professional workshop equipment: wheel balancers, brake testers, emission testers, alignment systems.</p>
       <div class="service-tags">
         <span class="tag">BALANCER</span>
         <span class="tag">BRAKE TESTER</span>
@@ -1286,7 +1079,7 @@
     <div class="service-card">
       <div class="service-num">06</div>
       <div class="service-name">Special Cases</div>
-      <p class="service-desc">Rare modules, unusual configurations and difficult failures. If the job cannot be done properly or is not economically reasonable, we will say that before work begins.</p>
+      <p class="service-desc">Unusual configurations, rare modules, complex multi-system failures. If it has chips and it controls something — bring it. We'll assess it honestly.</p>
       <div class="service-tags">
         <span class="tag">ON REQUEST</span>
         <span class="tag">ASSESSMENT</span>
@@ -1335,9 +1128,9 @@
 <section class="why" id="why">
   <div class="why-grid">
     <div class="why-points">
-      <div class="section-tag">Why AKEI</div>
+      <div class="section-tag">Why Choose AKEI</div>
       <div style="margin-bottom: 48px;">
-        <div class="section-title">HONEST<br>ENGINEERING.</div>
+        <div class="section-title">NO<br>SHORTCUTS.</div>
       </div>
 
       <div class="why-point">
@@ -1384,7 +1177,7 @@
     <div class="why-statement">
       <div class="why-big">MEASURED<br>FIRST.<br><em>FLASHED</em><br>RIGHT.</div>
       <p class="why-quote">
-        We do not promise miracles. We promise a careful technical assessment, clean data handling and a clear answer before money is spent on the wrong solution.
+        Every control unit holds the history of your vehicle. We treat that data with precision and respect — because getting it wrong means the car doesn't move.
       </p>
     </div>
   </div>
@@ -1440,14 +1233,15 @@
         <span class="contact-value">Riga, Latvia</span>
       </div>
       <div style="display: flex; gap: 16px; margin-top: 8px;">
-        <a href="https://www.facebook.com/akei.electronics" target="_blank" style="font-family: 'Share Tech Mono', monospace; font-size: 11px; letter-spacing: 2px; color: var(--muted); text-decoration: none; text-transform: uppercase; transition: color 0.2s;" onmouseover="this.style.color='#e8a020'" onmouseout="this.style.color='#666'">Facebook</a>
-        <a href="https://www.instagram.com/akei.lv/" target="_blank" style="font-family: 'Share Tech Mono', monospace; font-size: 11px; letter-spacing: 2px; color: var(--muted); text-decoration: none; text-transform: uppercase; transition: color 0.2s;" onmouseover="this.style.color='#e8a020'" onmouseout="this.style.color='#666'">Instagram</a>
-        <a href="https://www.youtube.com/channel/UC8C4ZayyIe6HSOHOjYQnAtA/featured" target="_blank" style="font-family: 'Share Tech Mono', monospace; font-size: 11px; letter-spacing: 2px; color: var(--muted); text-decoration: none; text-transform: uppercase; transition: color 0.2s;" onmouseover="this.style.color='#e8a020'" onmouseout="this.style.color='#666'">YouTube</a>
+        <a href="https://www.facebook.com/akei.electronics" target="_blank" rel="noopener" style="font-family: 'Share Tech Mono', monospace; font-size: 11px; letter-spacing: 2px; color: var(--muted); text-decoration: none; text-transform: uppercase; transition: color 0.2s;" onmouseover="this.style.color='#e8a020'" onmouseout="this.style.color='#666'">Facebook</a>
+        <a href="https://www.instagram.com/akei_elektronikas_remonts/" target="_blank" rel="noopener" style="font-family: 'Share Tech Mono', monospace; font-size: 11px; letter-spacing: 2px; color: var(--muted); text-decoration: none; text-transform: uppercase; transition: color 0.2s;" onmouseover="this.style.color='#e8a020'" onmouseout="this.style.color='#666'">Instagram</a>
+        <a href="https://www.youtube.com/channel/UC8C4ZayyIe6HSOHOjYQnAtA/featured" target="_blank" rel="noopener" style="font-family: 'Share Tech Mono', monospace; font-size: 11px; letter-spacing: 2px; color: var(--muted); text-decoration: none; text-transform: uppercase; transition: color 0.2s;" onmouseover="this.style.color='#e8a020'" onmouseout="this.style.color='#666'">YouTube</a>
       </div>
     </div>
 
     <form class="contact-form" method="POST" action="https://formspree.io/f/xqewdver">
-      <input type="hidden" name="_subject" value="New AKEI website request">
+      <input type="hidden" name="_subject" value="New request from AKEI website">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
       <div class="form-row">
         <div class="form-group">
@@ -1484,12 +1278,12 @@
 <footer>
   <a href="#" class="footer-logo">AK<span>E</span>I</a>
   <div class="footer-socials">
-    <a href="https://www.facebook.com/akei.electronics" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/akei.lv/" target="_blank">Instagram</a>
-    <a href="https://www.youtube.com/channel/UC8C4ZayyIe6HSOHOjYQnAtA/featured" target="_blank">YouTube</a>
-    <a href="https://lv.linkedin.com/in/andris-kalvans-899914134" target="_blank">LinkedIn</a>
+    <a href="https://www.facebook.com/akei.electronics" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://www.instagram.com/akei_elektronikas_remonts/" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://www.youtube.com/channel/UC8C4ZayyIe6HSOHOjYQnAtA/featured" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://lv.linkedin.com/in/andris-kalvans-899914134" target="_blank" rel="noopener">LinkedIn</a>
   </div>
-  <div class="footer-copy">© 2026 AKEI · Riga, Latvia</div>
+  <div class="footer-copy">© 2025 AKEI · Riga, Latvia</div>
 </footer>
 
 <script>
@@ -1518,101 +1312,35 @@ async function loadCases() {
   } catch(e) {}
 }
 
-
-function caseSlugFromFile(fileName) {
-  return String(fileName || '')
-    .replace(/^.*\//, '')
-    .replace(/\.json$/i, '');
-}
-
-
-function getCaseSlug(c) {
-  const titleSlugMap = {
-    "ECU Clone — BMW E60 525d": "bmw-e60-ecu-done",
-    "ECU Repair — Honda Goldwing GL1800": "honda_Goldwing_ECU",
-    "PCB Repair — Beissbarth Microtec 510": "beissbarth-microtec-510-main-board-repair",
-    "Optical System Repair — Corghi EM7070": "corghi-em7070-optical-system-repair",
-    "AdBlue Software Modification — Mercedes-Benz C200": "mercedes-c200-adblue-software-modification",
-    "Instrument Cluster Correction — Honda Motorcycle": "honda-motorcycle-cluster-odometer-correction",
-    "Bench Programming — Honda Motorcycle Cluster": "honda-motorcycle-cluster-bench-programming",
-    "Instrument Cluster Calibration — Yamaha Motorcycle": "yamaha-motorcycle-cluster-mileage-calibration",
-    "Measuring Head Repair — Space ARN84BTH": "space-arn84bth-arn800-measuring-head-repair",
-    "Tyre Changer Repair — Beissbarth Servomat MS63": "beissbarth-servomat-ms63-tyre-changer-repair",
-  };
-
-  if (c.slug) return c.slug;
-  if (c._file) return caseSlugFromFile(c._file);
-  if (titleSlugMap[c.title]) return titleSlugMap[c.title];
-
-  return String(c.title || '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
+function escapeHTML(value) {
+  return String(value || '').replace(/[&<>"']/g, function(ch) {
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch];
+  });
 }
 
 function renderCases(cases) {
   const grid = document.getElementById('cases-grid');
-
   if (!cases.length) {
     grid.innerHTML = '<div style="padding:48px;color:var(--muted);font-family:\'Share Tech Mono\',monospace;font-size:12px;letter-spacing:2px;">NO CASES YET</div>';
     return;
   }
-
-  grid.innerHTML = cases.map((c, caseIndex) => {
-    const gallery = c.gallery || c.images || (c.image ? [c.image] : []);
-    const cover = c.cover_image || c.image || gallery[0] || '';
-    const thumbs = gallery.length ? gallery.slice(0, 8) : (cover ? [cover] : []);
-
-    return `
-      <article class="case-card">
-        ${
-          cover
-            ? `
-              <div class="case-photo-wrap">
-                <img class="case-main-img" id="case-main-${caseIndex}" src="${cover}" alt="${c.image_alt || c.title}">
-                ${thumbs.length > 1 ? `
-                  <div class="case-gallery">
-                    ${thumbs.map((img, imgIndex) => `
-                      <img
-                        class="case-thumb ${imgIndex === 0 ? 'active' : ''}"
-                        src="${img}"
-                        alt="${c.image_alt || c.title}"
-                        onclick="setCaseImage(${caseIndex}, '${img}', this)"
-                      >
-                    `).join('')}
-                  </div>
-                ` : ''}
-              </div>
-            `
-            : `<div class="case-img-placeholder">// no photo</div>`
-        }
-
-        <div class="case-body">
-          <div class="case-service">${c.service || ''}</div>
-          <h3 class="case-title">${c.title}</h3>
-          <div class="case-car">${c.car || ''}</div>
-          <p class="case-desc">${c.description || ''}</p>
-          <div class="case-tags">
-            ${(c.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}
-          </div>
-          <a class="case-link" href="/case.html?case=${getCaseSlug(c)}">View case</a>
+  grid.innerHTML = cases.map(c => `
+    <article class="case-card">
+      ${c.image
+        ? `<img class="case-img" src="${escapeHTML(c.image)}" alt="${escapeHTML(c.image_alt || c.title)}" loading="lazy">`
+        : `<div class="case-img-placeholder">// no photo</div>`
+      }
+      <div class="case-body">
+        <div class="case-service">${escapeHTML(c.service)}</div>
+        <h3 class="case-title">${escapeHTML(c.title)}</h3>
+        <div class="case-car">${escapeHTML(c.car)}</div>
+        <p class="case-desc">${escapeHTML(c.description)}</p>
+        <div class="case-tags">
+          ${(c.tags || []).map(t => `<span class="tag">${escapeHTML(t)}</span>`).join('')}
         </div>
-      </article>
-    `;
-  }).join('');
-}
-
-function setCaseImage(caseIndex, imgSrc, thumbEl) {
-  const mainImg = document.getElementById(`case-main-${caseIndex}`);
-  if (!mainImg) return;
-
-  mainImg.src = imgSrc;
-
-  const gallery = thumbEl.closest('.case-gallery');
-  if (gallery) {
-    gallery.querySelectorAll('.case-thumb').forEach(t => t.classList.remove('active'));
-    thumbEl.classList.add('active');
-  }
+      </div>
+    </article>
+  `).join('');
 }
 
 // Load site settings
@@ -1650,6 +1378,19 @@ async function loadSettings() {
     });
   } catch(e) {}
 }
+
+// AKEI contact form -> GA4 form_submit
+document.addEventListener('DOMContentLoaded', function () {
+  const contactForm = document.querySelector('.contact-form');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', function () {
+      gtag('event', 'form_submit', {
+        form_name: 'AKEI Contact Form'
+      });
+    });
+  }
+});
 
 loadSettings();
 loadCases();
