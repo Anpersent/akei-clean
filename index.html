@@ -813,6 +813,9 @@ gtag('config', 'AW-710916766');
     transition: background 0.3s;
   }
 
+  .case-card-link { display: block; color: inherit; text-decoration: none; }
+  .case-card-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+  .case-card-link .case-card { height: 100%; }
   .case-card:hover { background: #1a1a1a; }
 
   .case-img {
@@ -1305,7 +1308,7 @@ async function loadCases() {
     for (const file of files) {
       try {
         const r = await fetch('/_data/cases/' + file);
-        if (r.ok) cases.push(await r.json());
+        if (r.ok) { const c = await r.json(); c.__slug = String(file).replace(/^.*\//, '').replace(/\.json$/i, ''); cases.push(c); }
       } catch(e) {}
     }
     renderCases(cases.filter(c => c.published !== false));
@@ -1325,6 +1328,7 @@ function renderCases(cases) {
     return;
   }
   grid.innerHTML = cases.map(c => `
+    <a class="case-card-link" href="/case.html?case=${encodeURIComponent(c.__slug || '')}" aria-label="Open case: ${escapeHTML(c.title)}">
     <article class="case-card">
       ${c.image
         ? `<img class="case-img" src="${escapeHTML(c.image)}" alt="${escapeHTML(c.image_alt || c.title)}" loading="lazy">`
@@ -1340,6 +1344,7 @@ function renderCases(cases) {
         </div>
       </div>
     </article>
+    </a>
   `).join('');
 }
 
