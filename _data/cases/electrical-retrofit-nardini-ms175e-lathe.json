@@ -33,5 +33,59 @@
   "image_alt": "Nardini MS175E industrial lathe electrical retrofit and automation repair by AKEI Latvia",
   "meta_description": "Electrical retrofit and automation repair for Nardini MS175E industrial lathe. Control cabinet diagnostics, rewiring and adaptation to European standards by AKEI Latvia.",
   "date": "2026-07-07",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Elektrosistēmas modernizācija — Nardini MS175E virpa",
+      "car": "Nardini MS175E rūpnieciskā virpa",
+      "service": "Rūpnieciskā automatizācija / elektroinstalācijas modernizācija",
+      "description": "Brazīlijā ražotai Nardini MS175E rūpnieciskajai virpai bija jāsalabo automatizācijas sistēma un elektriskās vadības skapis jāpielāgo Eiropas standartiem. Darbs ietvēra vadības ķēdes diagnostiku, pārvilkšanu, elektrisko komponentu nomaiņu un labošanu, drošības uzlabojumus un iekārtas noslēguma darbības pārbaudi.",
+      "meta_description": "Nardini MS175E rūpnieciskās virpas elektroinstalācijas modernizācija un automatizācijas remonts. Vadības skapja diagnostika, pārvilkšana un pielāgošana Eiropas standartiem. AKEI Latvija.",
+      "image_alt": "Nardini MS175E rūpnieciskās virpas elektroinstalācijas modernizācija un automatizācijas remonts, AKEI Latvija",
+      "status": "Veiksmīgi pabeigts",
+      "equipment": [
+        "Vadības skapja diagnostika",
+        "Elektroinstalācijas modernizācija",
+        "Automatizācijas remonts",
+        "Diožu tilts",
+        "Darbības pārbaude"
+      ],
+      "tags": [
+        "Rūpniecība",
+        "Nardini",
+        "MS175E",
+        "Virpa",
+        "Automatizācija",
+        "Elektroinstalācija",
+        "Vadības skapis",
+        "Iekārtu remonts"
+      ]
+    },
+    "ru": {
+      "title": "Модернизация электрики — токарный станок Nardini MS175E",
+      "car": "Промышленный токарный станок Nardini MS175E",
+      "service": "Промышленная автоматика / модернизация электрики",
+      "description": "Промышленному токарному станку Nardini MS175E бразильского производства требовался ремонт системы автоматики и адаптация электрического шкафа управления к европейским стандартам. Работа включала диагностику цепей управления, перемонтаж проводки, замену и доработку электрических компонентов, улучшения по безопасности и итоговую проверку станка в работе.",
+      "meta_description": "Модернизация электрики и ремонт автоматики промышленного токарного станка Nardini MS175E. Диагностика шкафа управления, перемонтаж и адаптация к европейским стандартам. AKEI Латвия.",
+      "image_alt": "Модернизация электрики и ремонт автоматики токарного станка Nardini MS175E, AKEI Латвия",
+      "status": "Успешно выполнено",
+      "equipment": [
+        "Диагностика шкафа управления",
+        "Модернизация электрики",
+        "Ремонт автоматики",
+        "Диодный мост",
+        "Проверка в работе"
+      ],
+      "tags": [
+        "Промышленность",
+        "Nardini",
+        "MS175E",
+        "Токарный станок",
+        "Автоматика",
+        "Электрика",
+        "Шкаф управления",
+        "Ремонт станков"
+      ]
+    }
+  }
 }

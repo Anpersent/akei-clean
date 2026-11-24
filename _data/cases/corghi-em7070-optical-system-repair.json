@@ -21,5 +21,37 @@
   "image_alt": "Corghi EM7070 optical sensor repair Error 28 wheel balancer AKEI Latvia",
   "meta_description": "Corghi EM7070 optical system repair for Error 28. Optical sensor and signal path diagnostics for wheel balancing equipment.",
   "date": "2026-07-06",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Optiskās sistēmas remonts — Corghi EM7070",
+      "car": "Corghi EM7070 riteņu balansēšanas iekārta",
+      "service": "Balansēšanas iekārtu optiskā sensora remonts",
+      "description": "Corghi EM7070 riteņu balansēšanas iekārtas optiskās mērīšanas sistēmas remonts. Iekārta rādīja kļūdu Error 28, kas saistīta ar optisko enkodera sistēmu. Optiskais modulis, signāla ceļš, savienotāji un plate tika pārbaudīti un salaboti, pēc tam veikta darbības pārbaude.",
+      "meta_description": "Corghi EM7070 optiskās sistēmas remonts kļūdai Error 28. Optiskā sensora un signāla ceļa diagnostika balansēšanas iekārtām.",
+      "image_alt": "Corghi EM7070 optiskā sensora remonts, Error 28, balansēšanas iekārta, AKEI Latvija",
+      "tags": [
+        "Corghi",
+        "EM7070",
+        "Error 28",
+        "optiskais sensors",
+        "balansēšanas iekārta"
+      ]
+    },
+    "ru": {
+      "title": "Ремонт оптической системы — Corghi EM7070",
+      "car": "Балансировочный станок Corghi EM7070",
+      "service": "Ремонт оптического датчика балансировочного станка",
+      "description": "Ремонт оптической измерительной системы балансировочного станка Corghi EM7070. Станок выдавал ошибку Error 28, связанную с оптическим энкодером. Оптический модуль, сигнальный тракт, разъёмы и плата были проверены и отремонтированы, затем проведена проверка работы.",
+      "meta_description": "Ремонт оптической системы Corghi EM7070, ошибка Error 28. Диагностика оптического датчика и сигнального тракта балансировочного станка.",
+      "image_alt": "Ремонт оптического датчика Corghi EM7070, Error 28, балансировочный станок, AKEI Латвия",
+      "tags": [
+        "Corghi",
+        "EM7070",
+        "Error 28",
+        "оптический датчик",
+        "балансировочный станок"
+      ]
+    }
+  }
 }

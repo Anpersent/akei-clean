@@ -20,5 +20,37 @@
   "image_alt": "Honda motorcycle instrument cluster odometer correction AKEI Latvia",
   "meta_description": "Honda motorcycle instrument cluster service with memory access, data correction and functional testing.",
   "date": "2026-07-06",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Paneļa datu korekcija — Honda motocikls",
+      "car": "Honda motocikla mēraparātu panelis",
+      "service": "Motociklu mēraparātu paneļu serviss",
+      "description": "Odometra datu korekcija Honda motocikla mēraparātu panelim. Panelis tika izjaukts, iegūta piekļuve elektroniskajai atmiņai, dati koriģēti un pārbaudīti, un pirms atdošanas panelim veikta darbības pārbaude.",
+      "meta_description": "Honda motocikla mēraparātu paneļa serviss: piekļuve atmiņai, datu korekcija un darbības pārbaude.",
+      "image_alt": "Honda motocikla mēraparātu paneļa odometra korekcija, AKEI Latvija",
+      "tags": [
+        "Honda",
+        "motocikls",
+        "mēraparātu panelis",
+        "panelis",
+        "odometrs"
+      ]
+    },
+    "ru": {
+      "title": "Коррекция данных панели — мотоцикл Honda",
+      "car": "Приборная панель мотоцикла Honda",
+      "service": "Обслуживание мотоциклетных приборных панелей",
+      "description": "Коррекция данных одометра приборной панели мотоцикла Honda. Панель разобрана, получен доступ к электронной памяти, данные скорректированы и проверены, перед выдачей панель проверена в работе.",
+      "meta_description": "Обслуживание приборной панели мотоцикла Honda: доступ к памяти, коррекция данных и проверка работы.",
+      "image_alt": "Коррекция одометра приборной панели мотоцикла Honda, AKEI Латвия",
+      "tags": [
+        "Honda",
+        "мотоцикл",
+        "приборная панель",
+        "щиток",
+        "одометр"
+      ]
+    }
+  }
 }

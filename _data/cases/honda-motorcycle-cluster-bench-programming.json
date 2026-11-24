@@ -20,5 +20,37 @@
   "image_alt": "Honda motorcycle cluster bench programming EEPROM service AKEI Latvia",
   "meta_description": "Honda motorcycle instrument cluster bench programming and EEPROM service with final functional verification.",
   "date": "2026-07-06",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Programmēšana uz galda — Honda motocikla panelis",
+      "car": "Honda motocikla mēraparātu panelis",
+      "service": "Motociklu paneļu programmēšana",
+      "description": "Honda motocikla mēraparātu paneļa programmēšana uz galda. Drošai piekļuvei atmiņai tika izveidoti tieši savienojumi ar plati, oriģinālie dati nolasīti un pārbaudīti, pēc tam panelis ieprogrammēts un pārbaudīts uz galda.",
+      "meta_description": "Honda motocikla mēraparātu paneļa programmēšana uz galda un EEPROM darbi ar noslēguma darbības pārbaudi.",
+      "image_alt": "Honda motocikla paneļa programmēšana uz galda, EEPROM, AKEI Latvija",
+      "tags": [
+        "Honda",
+        "motocikls",
+        "panelis",
+        "programmēšana uz galda",
+        "EEPROM"
+      ]
+    },
+    "ru": {
+      "title": "Программирование на столе — приборная панель Honda",
+      "car": "Приборная панель мотоцикла Honda",
+      "service": "Программирование мотоциклетных панелей",
+      "description": "Программирование приборной панели мотоцикла Honda на столе. Для надёжного доступа к памяти выполнено прямое подключение к плате, оригинальные данные считаны и проверены, затем панель запрограммирована и проверена на столе.",
+      "meta_description": "Программирование приборной панели мотоцикла Honda на столе и работа с EEPROM с итоговой проверкой.",
+      "image_alt": "Программирование приборной панели Honda на столе, EEPROM, AKEI Латвия",
+      "tags": [
+        "Honda",
+        "мотоцикл",
+        "приборная панель",
+        "программирование на столе",
+        "EEPROM"
+      ]
+    }
+  }
 }

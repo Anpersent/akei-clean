@@ -342,12 +342,40 @@
       .tech-grid { grid-template-columns: 1fr; }
     }
 
+    /* AKEI v3: language switcher */
+    .top-right { display: flex; align-items: center; gap: 24px; }
+    .lang-switch { display: flex; gap: 2px; }
+    .lang-switch a {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: var(--muted);
+      text-decoration: none;
+      min-width: 34px;
+      min-height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid transparent;
+    }
+    .lang-switch a:hover { color: var(--accent); }
+    .lang-switch a.active { color: var(--text); border-color: var(--border); }
+    h1 { overflow-wrap: break-word; }
+    @media (max-width: 700px) {
+      .top { padding: 14px 5vw; }
+      .top-right { gap: 10px; }
+      .back { font-size: 11px; letter-spacing: 1px; }
+      .lang-switch a { min-width: 30px; }
+    }
   </style>
 </head>
 <body>
   <header class="top">
     <a class="logo" href="/">AKEI</a>
-    <a class="back" href="/#cases">← Back to cases</a>
+    <div class="top-right">
+      <a class="back" href="/#cases">← Back to cases</a>
+      <div class="lang-switch" role="navigation" aria-label="Language"><a href="/case.html" data-base="/case.html" hreflang="en" lang="en" class="active" aria-current="page">EN</a><a href="/lv/case.html" data-base="/lv/case.html" hreflang="lv" lang="lv">LV</a><a href="/ru/case.html" data-base="/ru/case.html" hreflang="ru" lang="ru">RU</a></div>
+    </div>
   </header>
 
   <main id="case-page">
@@ -355,6 +383,32 @@
     <h1>AKEI Case</h1>
   </main>
 <script>
+    const PAGE_LANG = 'en';
+    const HOME = '/';
+    const T = {"veh": "Vehicle / Equipment", "service": "Service", "tools": "Tools / Process", "result": "Result", "done": "Successfully completed", "quote": "Get quote", "nf": "Case not found", "nf_text": "This case could not be loaded.", "nf_back": "Back to cases", "default_title": "AKEI Case"};
+    const SITE = 'https://akei.lv';
+    const LANG_PREFIX = {en: '/', lv: '/lv/', ru: '/ru/'};
+
+    function localizeCase(c) {
+      const t = (c.i18n && c.i18n[PAGE_LANG]) || {};
+      return Object.assign({}, c, t);
+    }
+
+    // language links keep the current case; canonical + hreflang for search engines
+    function setLanguageLinks(slug) {
+      const q = slug ? '?case=' + encodeURIComponent(slug) : '';
+      document.querySelectorAll('.lang-switch a[data-base]').forEach(a => { a.href = a.dataset.base + q; });
+      if (!slug) return;
+      const add = (rel, href, hl) => {
+        const l = document.createElement('link');
+        l.rel = rel; l.href = href; if (hl) l.hreflang = hl;
+        document.head.appendChild(l);
+      };
+      add('canonical', SITE + LANG_PREFIX[PAGE_LANG] + 'case?case=' + encodeURIComponent(slug));
+      Object.keys(LANG_PREFIX).forEach(l => add('alternate', SITE + LANG_PREFIX[l] + 'case?case=' + encodeURIComponent(slug), l));
+      add('alternate', SITE + '/case?case=' + encodeURIComponent(slug), 'x-default');
+    }
+
     const DATA_BASE = '/_data';
     let currentGallery = [];
     let currentLightboxIndex = 0;
@@ -396,24 +450,24 @@
 
     function buildTechnicalInfo(c) {
       const equipment = c.equipment || c.tools || c.tags || [];
-      const status = c.status || 'Successfully completed';
+      const status = c.status || T.done;
 
       return `
         <div class="tech-grid">
           <div class="tech-item">
-            <div class="tech-label">Vehicle / Equipment</div>
+            <div class="tech-label">${T.veh}</div>
             <div class="tech-value">${renderTechValue(c.car || c.title)}</div>
           </div>
           <div class="tech-item">
-            <div class="tech-label">Service</div>
+            <div class="tech-label">${T.service}</div>
             <div class="tech-value">${renderTechValue(c.service)}</div>
           </div>
           <div class="tech-item">
-            <div class="tech-label">Tools / Process</div>
+            <div class="tech-label">${T.tools}</div>
             <div class="tech-value">${renderTechValue(equipment)}</div>
           </div>
           <div class="tech-item">
-            <div class="tech-label">Result</div>
+            <div class="tech-label">${T.result}</div>
             <div class="tech-value">✔ ${renderTechValue(status)}</div>
           </div>
         </div>
@@ -430,12 +484,13 @@
 
         if (!file) throw new Error('Case not found');
 
-        const c = await fetch(`${DATA_BASE}/cases/${file}`).then(r => r.json());
+        const c = localizeCase(await fetch(`${DATA_BASE}/cases/${file}`).then(r => r.json()));
+        setLanguageLinks(slugFromFile(file));
         const gallery = c.gallery || c.images || (c.image ? [c.image] : []);
         const cover = c.cover_image || c.image || gallery[0] || '';
         currentGallery = gallery.length ? gallery : (cover ? [cover] : []);
 
-        document.title = `${c.title || 'AKEI Case'} — AKEI`;
+        document.title = `${c.title || T.default_title} — AKEI`;
         const meta = document.querySelector('meta[name="description"]');
         if (meta && c.meta_description) meta.setAttribute('content', c.meta_description);
 
@@ -462,7 +517,7 @@
               <div class="tags">
                 ${(c.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}
               </div>
-              <a class="quote" href="/#contact">Get quote</a>
+              <a class="quote" href="${HOME}#contact">${T.quote}</a>
             </aside>
           </div>
 
@@ -474,10 +529,10 @@
         `;
       } catch (err) {
         page.innerHTML = `
-          <div class="service">Case not found</div>
+          <div class="service">${T.nf}</div>
           <h1>404</h1>
-          <p class="desc">This case could not be loaded.</p>
-          <a class="quote" href="/#cases">Back to cases</a>
+          <p class="desc">${T.nf_text}</p>
+          <a class="quote" href="${HOME}#cases">${T.nf_back}</a>
         `;
       }
     }

@@ -18,5 +18,37 @@
   "image_alt": "Beissbarth Microtec 510 wheel balancer main board PCB repair AKEI Latvia",
   "meta_description": "Component-level PCB repair for Beissbarth Microtec 510 wheel balancing machine. AKEI workshop equipment repair in Latvia.",
   "date": "2026-07-06",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Plates remonts — Beissbarth Microtec 510",
+      "car": "Beissbarth Microtec 510 riteņu balansēšanas iekārta",
+      "service": "Balansēšanas iekārtu elektronikas remonts",
+      "description": "Beissbarth Microtec 510 riteņu balansēšanas iekārtas galvenās elektronikas plates remonts. Plate tika pārbaudīta komponentu līmenī, bojātās elektroniskās shēmas salabotas, bet bloks notīrīts, pārbaudīts un sagatavots drošai darbībai iekārtā.",
+      "meta_description": "Beissbarth Microtec 510 balansēšanas iekārtas plates remonts komponentu līmenī. AKEI autoservisa iekārtu remonts Latvijā.",
+      "image_alt": "Beissbarth Microtec 510 balansēšanas iekārtas galvenās plates remonts, AKEI Latvija",
+      "tags": [
+        "Beissbarth",
+        "Microtec 510",
+        "balansēšanas iekārta",
+        "plates remonts",
+        "autoservisa iekārtas"
+      ]
+    },
+    "ru": {
+      "title": "Ремонт платы — Beissbarth Microtec 510",
+      "car": "Балансировочный станок Beissbarth Microtec 510",
+      "service": "Ремонт электроники балансировочных станков",
+      "description": "Ремонт главной электронной платы балансировочного станка Beissbarth Microtec 510. Плата проверена на компонентном уровне, повреждённые цепи восстановлены, блок очищен, проверен и подготовлен к надёжной работе в станке.",
+      "meta_description": "Компонентный ремонт платы балансировочного станка Beissbarth Microtec 510. AKEI — ремонт оборудования автосервисов в Латвии.",
+      "image_alt": "Ремонт главной платы балансировочного станка Beissbarth Microtec 510, AKEI Латвия",
+      "tags": [
+        "Beissbarth",
+        "Microtec 510",
+        "балансировочный станок",
+        "ремонт платы",
+        "оборудование автосервиса"
+      ]
+    }
+  }
 }

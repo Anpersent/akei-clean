@@ -13,21 +13,26 @@ gtag('config', 'AW-710916766');
   gtag('config', 'G-W8SS3YZYRV');
 </script>
 
-<title>AKEI — ECU Cloning & Automotive Electronics · Riga, Latvia</title>
-<meta name="description" content="AKEI in Riga, Latvia provides ECU cloning, immobilizer solutions, EEPROM and Flash data services, automotive electronics diagnostics and module repair.">
+<title>AKEI — ECU Cloning, Automotive Electronics &amp; Workshop Equipment Repair · Riga, Latvia</title>
+<meta name="description" content="AKEI in Riga, Latvia: ECU and TCU cloning, immobilizer and key systems, EEPROM and Flash data services, control module repair and workshop equipment electronics. Electronics since 1988. EU postal service.">
 <link rel="canonical" href="https://akei.lv/">
+<link rel="alternate" hreflang="en" href="https://akei.lv/">
+<link rel="alternate" hreflang="lv" href="https://akei.lv/lv/">
+<link rel="alternate" hreflang="ru" href="https://akei.lv/ru/">
+<link rel="alternate" hreflang="x-default" href="https://akei.lv/">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0a0a0a">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://akei.lv/">
-<meta property="og:title" content="AKEI — ECU Cloning & Automotive Electronics · Riga, Latvia">
-<meta property="og:description" content="ECU cloning, immobilizer, EEPROM/Flash data services and automotive electronics repair in Riga, Latvia.">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="AKEI — ECU Cloning, Automotive Electronics &amp; Workshop Equipment Repair · Riga, Latvia">
+<meta property="og:description" content="ECU cloning, immobilizer and key systems, EEPROM/Flash data services, module repair and workshop equipment electronics in Riga, Latvia.">
 <meta property="og:site_name" content="AKEI">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AKEI — ECU Cloning & Automotive Electronics">
-<meta name="twitter:description" content="Deep-level automotive electronics. ECU/TCU/BCM cloning, immobilizer and EEPROM/Flash services.">
+<meta name="twitter:title" content="AKEI — ECU Cloning, Automotive Electronics &amp; Workshop Equipment Repair · Riga, Latvia">
+<meta name="twitter:description" content="Deep-level automotive electronics. ECU/TCU/BCM cloning, immobilizer and key systems, EEPROM/Flash, workshop equipment repair.">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"AutoRepair","name":"AKEI","url":"https://akei.lv/","email":"info@akei.lv","areaServed":["Latvia","European Union"],"address":{"@type":"PostalAddress","addressLocality":"Riga","addressCountry":"LV"},"description":"ECU cloning, immobilizer solutions, EEPROM and Flash data services, automotive electronics diagnostics and module repair."}
+{"@context": "https://schema.org", "@type": "AutoRepair", "name": "AKEI", "url": "https://akei.lv/", "telephone": "+371 29 760 588", "email": "info@akei.lv", "foundingDate": "1988", "areaServed": ["Latvia", "European Union"], "availableLanguage": ["lv", "ru", "en"], "address": {"@type": "PostalAddress", "addressLocality": "Riga", "addressCountry": "LV"}, "sameAs": ["https://www.facebook.com/akei.electronics", "https://www.instagram.com/akei_elektronikas_remonts/", "https://www.youtube.com/channel/UC8C4ZayyIe6HSOHOjYQnAtA"], "inLanguage": "en", "description": "ECU cloning, immobilizer and key systems, EEPROM/Flash data services, module repair and workshop equipment electronics in Riga, Latvia."}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -927,6 +932,36 @@ gtag('config', 'AW-710916766');
     body::before, .hero-grid { display: none; }
   }
 
+  /* AKEI v3: language switcher */
+  .nav-right { display: flex; align-items: center; gap: 20px; }
+  .lang-switch { display: flex; gap: 2px; }
+  .lang-switch a {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--muted);
+    text-decoration: none;
+    min-width: 34px;
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .lang-switch a:hover { color: var(--accent); }
+  .lang-switch a.active { color: var(--white); border-color: var(--border); }
+  @media (max-width: 700px) {
+    .nav-right { gap: 8px; }
+    .lang-switch a { min-width: 30px; }
+    .nav-cta { padding: 9px 12px; letter-spacing: 1px; }
+  }
+  @media (max-width: 420px) {
+    nav { padding: 0 16px; }
+    .nav-right { gap: 6px; }
+    .lang-switch a { min-width: 28px; }
+    .nav-cta { padding: 9px 10px; }
+  }
 </style>
 </head>
 <body>
@@ -941,19 +976,22 @@ gtag('config', 'AW-710916766');
     <li><a href="#why">Why AKEI</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a href="#contact" class="nav-cta">Get Quote</a>
+  <div class="nav-right">
+    <div class="lang-switch" role="navigation" aria-label="Language"><a href="/" hreflang="en" lang="en" class="active" aria-current="page">EN</a><a href="/lv/" hreflang="lv" lang="lv">LV</a><a href="/ru/" hreflang="ru" lang="ru">RU</a></div>
+    <a href="#contact" class="nav-cta">Get Quote</a>
+  </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
   <div class="hero-grid"></div>
 
-  <div class="hero-tag">· ECU Cloning · IMMO · EEPROM/Flash · Riga, Latvia</div>
+  <div class="hero-tag">· ECU Cloning · IMMO · EEPROM/Flash · Workshop Equipment · Riga, Latvia</div>
 
   <h1>WE READ<br>WHAT OTHERS<br><em>CAN'T.</em></h1>
 
   <p class="hero-sub">
-    Deep-level automotive electronics. ECU/TCU/BCM cloning, immobilizer bypass, EEPROM & Flash read/write. No dealers. No guesswork. Clean work with original chips.
+    Deep-level automotive electronics. ECU/TCU/BCM cloning, immobilizer and key systems, EEPROM & Flash read/write, workshop equipment repair. No dealers. No guesswork. Clean work with original chips.
   </p>
 
   <div class="hero-actions">
@@ -963,8 +1001,8 @@ gtag('config', 'AW-710916766');
 
   <div class="hero-counter">
     <div class="counter-item">
-      <div class="counter-num">10<span>+</span></div>
-      <div class="counter-label">Years Experience</div>
+      <div class="counter-num">19<span>88</span></div>
+      <div class="counter-label">In Electronics Since</div>
     </div>
     <div class="counter-item">
       <div class="counter-num">EU<span>/</span>LV</div>
@@ -983,25 +1021,29 @@ gtag('config', 'AW-710916766');
   <div class="ticker-inner">
     <span class="ticker-item">ECU CLONING</span>
     <span class="ticker-item ticker-dot">·</span>
-    <span class="ticker-item">IMMO-OFF</span>
+    <span class="ticker-item">IMMO / KEYS</span>
     <span class="ticker-item ticker-dot">·</span>
     <span class="ticker-item">BSI / BCM / CAS</span>
     <span class="ticker-item ticker-dot">·</span>
     <span class="ticker-item">EEPROM READ/WRITE</span>
     <span class="ticker-item ticker-dot">·</span>
     <span class="ticker-item">FLASH PROGRAMMING</span>
+    <span class="ticker-item ticker-dot">·</span>
+    <span class="ticker-item">WORKSHOP EQUIPMENT</span>
     <span class="ticker-item ticker-dot">·</span>
     <span class="ticker-item">RIGA, LATVIA</span>
     <span class="ticker-item ticker-dot">·</span>
     <span class="ticker-item">ECU CLONING</span>
     <span class="ticker-item ticker-dot">·</span>
-    <span class="ticker-item">IMMO-OFF</span>
+    <span class="ticker-item">IMMO / KEYS</span>
     <span class="ticker-item ticker-dot">·</span>
     <span class="ticker-item">BSI / BCM / CAS</span>
     <span class="ticker-item ticker-dot">·</span>
     <span class="ticker-item">EEPROM READ/WRITE</span>
     <span class="ticker-item ticker-dot">·</span>
     <span class="ticker-item">FLASH PROGRAMMING</span>
+    <span class="ticker-item ticker-dot">·</span>
+    <span class="ticker-item">WORKSHOP EQUIPMENT</span>
     <span class="ticker-item ticker-dot">·</span>
     <span class="ticker-item">RIGA, LATVIA</span>
     <span class="ticker-item ticker-dot">·</span>
@@ -1035,20 +1077,32 @@ gtag('config', 'AW-710916766');
 
     <div class="service-card">
       <div class="service-num">02</div>
-      <div class="service-name">IMMO & Key Systems</div>
-      <p class="service-desc">Immobilizer bypass, IMMO-off, key synchronization. CAS, EWS, BSI, BCM — we work at chip level, not through OBD shortcuts.</p>
+      <div class="service-name">Workshop Equipment</div>
+      <p class="service-desc">Electronics repair and calibration of workshop equipment since 2011: wheel balancers, tyre changers, wheel aligners, brake testers. Hofmann, Corghi, Hunter, Beissbarth, Space, John Bean, Snap-on, Nussbaum and others. On-site visits across Latvia.</p>
       <div class="service-tags">
-        <span class="tag">CAS</span>
-        <span class="tag">EWS</span>
-        <span class="tag">BSI</span>
-        <span class="tag">IMMO-OFF</span>
+        <span class="tag">BALANCER</span>
+        <span class="tag">ALIGNER</span>
+        <span class="tag">TYRE CHANGER</span>
+        <span class="tag">ON-SITE</span>
       </div>
     </div>
 
     <div class="service-card">
       <div class="service-num">03</div>
+      <div class="service-name">IMMO &amp; Key Systems</div>
+      <p class="service-desc">Immobilizer repair and adaptation, key programming and synchronization. CAS, EWS, BSI, BCM — we work at chip level, not through OBD shortcuts.</p>
+      <div class="service-tags">
+        <span class="tag">CAS</span>
+        <span class="tag">EWS</span>
+        <span class="tag">BSI</span>
+        <span class="tag">KEYS</span>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-num">04</div>
       <div class="service-name">EEPROM / Flash</div>
-      <p class="service-desc">Read, write, backup and restore EEPROM and Flash memory. Mileage data, VIN, configuration — extracted and rewritten accurately.</p>
+      <p class="service-desc">Read, write, back up and restore EEPROM and Flash memory. When a module or instrument cluster is replaced: VIN, configuration and mileage data are transferred accurately.</p>
       <div class="service-tags">
         <span class="tag">EEPROM</span>
         <span class="tag">FLASH</span>
@@ -1057,7 +1111,7 @@ gtag('config', 'AW-710916766');
     </div>
 
     <div class="service-card">
-      <div class="service-num">04</div>
+      <div class="service-num">05</div>
       <div class="service-name">Module Repair</div>
       <p class="service-desc">Component-level repair of ECU, SRS, ABS, AdBlue and other control modules. Power drivers, CAN transceivers, gate drivers — diagnosed and replaced.</p>
       <div class="service-tags">
@@ -1069,25 +1123,15 @@ gtag('config', 'AW-710916766');
     </div>
 
     <div class="service-card">
-      <div class="service-num">05</div>
-      <div class="service-name">Autoservice Equipment</div>
-      <p class="service-desc">Calibration and electronics repair for professional workshop equipment: wheel balancers, brake testers, emission testers, alignment systems.</p>
-      <div class="service-tags">
-        <span class="tag">BALANCER</span>
-        <span class="tag">BRAKE TESTER</span>
-        <span class="tag">ALIGNER</span>
-      </div>
-    </div>
-
-    <div class="service-card">
       <div class="service-num">06</div>
       <div class="service-name">Special Cases</div>
-      <p class="service-desc">Unusual configurations, rare modules, complex multi-system failures. If it has chips and it controls something — bring it. We'll assess it honestly.</p>
+      <p class="service-desc">Unusual configurations, rare modules, complex multi-system failures. If it has chips and it controls something — bring it. We&#x27;ll assess it honestly.</p>
       <div class="service-tags">
         <span class="tag">ON REQUEST</span>
         <span class="tag">ASSESSMENT</span>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -1243,7 +1287,8 @@ gtag('config', 'AW-710916766');
     </div>
 
     <form class="contact-form" method="POST" action="https://formspree.io/f/xqewdver">
-      <input type="hidden" name="_subject" value="New request from AKEI website">
+      <input type="hidden" name="_subject" value="New request from AKEI website (EN)">
+      <input type="hidden" name="language" value="EN">
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
       <div class="form-row">
@@ -1260,12 +1305,12 @@ gtag('config', 'AW-710916766');
         <label class="form-label">Service Type</label>
         <select name="service" class="form-select" required>
           <option value="">Select service...</option>
-          <option>ECU / TCU Cloning</option>
-          <option>IMMO / Key Systems</option>
-          <option>EEPROM / Flash</option>
-          <option>Module Repair</option>
-          <option>Autoservice Equipment</option>
-          <option>Other / Special Case</option>
+          <option value="ECU / TCU Cloning">ECU / TCU Cloning</option>
+          <option value="Workshop Equipment">Workshop Equipment</option>
+          <option value="IMMO / Key Systems">IMMO / Key Systems</option>
+          <option value="EEPROM / Flash">EEPROM / Flash</option>
+          <option value="Module Repair">Module Repair</option>
+          <option value="Other / Special Case">Other / Special Case</option>
         </select>
       </div>
       <div class="form-group">
@@ -1286,10 +1331,20 @@ gtag('config', 'AW-710916766');
     <a href="https://www.youtube.com/channel/UC8C4ZayyIe6HSOHOjYQnAtA/featured" target="_blank" rel="noopener">YouTube</a>
     <a href="https://lv.linkedin.com/in/andris-kalvans-899914134" target="_blank" rel="noopener">LinkedIn</a>
   </div>
-  <div class="footer-copy">© 2025 AKEI · Riga, Latvia</div>
+  <div class="footer-copy">© <span class="js-year">2026</span> AKEI · Riga, Latvia</div>
 </footer>
 
 <script>
+const PAGE_LANG = 'en';
+const CASE_PATH = '/case.html';
+const UI_OPEN = 'Open case: ';
+const UI_EMPTY = 'NO CASES YET';
+
+function localizeCase(c) {
+  const t = (c.i18n && c.i18n[PAGE_LANG]) || {};
+  return Object.assign({}, c, t);
+}
+
 // Load cases from JSON files
 async function loadCases() {
   const grid = document.getElementById('cases-grid');
@@ -1311,7 +1366,7 @@ async function loadCases() {
         if (r.ok) { const c = await r.json(); c.__slug = String(file).replace(/^.*\//, '').replace(/\.json$/i, ''); cases.push(c); }
       } catch(e) {}
     }
-    renderCases(cases.filter(c => c.published !== false));
+    renderCases(cases.filter(c => c.published !== false).map(localizeCase));
   } catch(e) {}
 }
 
@@ -1324,11 +1379,11 @@ function escapeHTML(value) {
 function renderCases(cases) {
   const grid = document.getElementById('cases-grid');
   if (!cases.length) {
-    grid.innerHTML = '<div style="padding:48px;color:var(--muted);font-family:\'Share Tech Mono\',monospace;font-size:12px;letter-spacing:2px;">NO CASES YET</div>';
+    grid.innerHTML = '<div style="padding:48px;color:var(--muted);font-family:\'Share Tech Mono\',monospace;font-size:12px;letter-spacing:2px;">' + UI_EMPTY + '</div>';
     return;
   }
   grid.innerHTML = cases.map(c => `
-    <a class="case-card-link" href="/case.html?case=${encodeURIComponent(c.__slug || '')}" aria-label="Open case: ${escapeHTML(c.title)}">
+    <a class="case-card-link" href="${CASE_PATH}?case=${encodeURIComponent(c.__slug || '')}" aria-label="${UI_OPEN}${escapeHTML(c.title)}">
     <article class="case-card">
       ${c.image
         ? `<img class="case-img" src="${escapeHTML(c.image)}" alt="${escapeHTML(c.image_alt || c.title)}" loading="lazy">`
@@ -1356,31 +1411,6 @@ async function loadSettings() {
     const s = await res.json();
     if (s.phone) document.querySelectorAll('[data-field="phone"]').forEach(el => el.textContent = s.phone);
     if (s.email) document.querySelectorAll('[data-field="email"]').forEach(el => { el.textContent = s.email; el.href = 'mailto:' + s.email; });
-    if (s.seo_title) document.title = s.seo_title;
-    if (s.seo_description) {
-      let meta = document.querySelector('meta[name="description"]');
-      if (!meta) { meta = document.createElement('meta'); meta.name = 'description'; document.head.appendChild(meta); }
-      meta.content = s.seo_description;
-    }
-    // Apply fonts
-    const bodyFont = s.font_body || 'DM Sans';
-    const headingFont = s.font_heading || 'Bebas Neue';
-    const allFonts = [...new Set([bodyFont, headingFont, 'Share Tech Mono'])];
-    const fontLink = document.createElement('link');
-    fontLink.rel = 'stylesheet';
-    fontLink.href = 'https://fonts.googleapis.com/css2?family=' +
-      allFonts.map(f => f.replace(/ /g, '+')).join('&family=') +
-      ':wght@300;400;500;700&display=swap';
-    document.head.appendChild(fontLink);
-    document.documentElement.style.setProperty('--font-body', `'${bodyFont}', sans-serif`);
-    document.documentElement.style.setProperty('--font-heading', `'${headingFont}', sans-serif`);
-    // Apply CSS variables
-    document.querySelectorAll('body, p, li, input, textarea, select, button').forEach(el => {
-      el.style.fontFamily = `'${bodyFont}', sans-serif`;
-    });
-    document.querySelectorAll('h1, h2, h3, .section-title, .hero h1, .nav-logo, .service-name, .step-title, .why-big, .case-title, .contact-value, .footer-logo, .counter-num, .geo-option-title, .geo-text h3').forEach(el => {
-      el.style.fontFamily = `'${headingFont}', sans-serif`;
-    });
   } catch(e) {}
 }
 
@@ -1390,6 +1420,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (contactForm) {
     contactForm.addEventListener('submit', function () {
+      try { localStorage.setItem('akei_lang', PAGE_LANG); } catch (e) {}
       gtag('event', 'form_submit', {
         form_name: 'AKEI Contact Form'
       });
@@ -1397,6 +1428,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
+document.querySelectorAll('.js-year').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 loadSettings();
 loadCases();
 </script>

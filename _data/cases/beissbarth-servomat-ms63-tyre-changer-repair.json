@@ -20,5 +20,37 @@
   "image_alt": "Beissbarth Servomat MS63 tyre changer repair AKEI Latvia",
   "meta_description": "Beissbarth Servomat MS63 tyre changer repair including mechanical, drive and pneumatic system diagnostics.",
   "date": "2026-07-06",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Riepu montāžas iekārtas remonts — Beissbarth Servomat MS63",
+      "car": "Beissbarth Servomat MS63",
+      "service": "Riepu montāžas iekārtu remonts",
+      "description": "Beissbarth Servomat MS63 riepu montāžas iekārtas remonts. Bija jāpārbauda mehāniskā, piedziņas un pneimatiskā sistēma. Pēc diagnostikas darba mehānismi tika salaboti, noregulēti un pārbaudīti ikdienas darbam servisā.",
+      "meta_description": "Beissbarth Servomat MS63 riepu montāžas iekārtas remonts, ieskaitot mehānikas, piedziņas un pneimatikas diagnostiku.",
+      "image_alt": "Beissbarth Servomat MS63 riepu montāžas iekārtas remonts, AKEI Latvija",
+      "tags": [
+        "Beissbarth",
+        "Servomat MS63",
+        "riepu montāža",
+        "autoservisa iekārtas",
+        "pneimatika"
+      ]
+    },
+    "ru": {
+      "title": "Ремонт шиномонтажного станка — Beissbarth Servomat MS63",
+      "car": "Beissbarth Servomat MS63",
+      "service": "Ремонт шиномонтажных станков",
+      "description": "Ремонт шиномонтажного станка Beissbarth Servomat MS63. Потребовалась проверка механики, привода и пневматики. После диагностики рабочие механизмы отремонтированы, отрегулированы и проверены для нормальной работы в сервисе.",
+      "meta_description": "Ремонт шиномонтажного станка Beissbarth Servomat MS63: диагностика механики, привода и пневматики.",
+      "image_alt": "Ремонт шиномонтажного станка Beissbarth Servomat MS63, AKEI Латвия",
+      "tags": [
+        "Beissbarth",
+        "Servomat MS63",
+        "шиномонтаж",
+        "оборудование автосервиса",
+        "пневматика"
+      ]
+    }
+  }
 }

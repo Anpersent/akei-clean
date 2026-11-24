@@ -17,5 +17,37 @@
   "image_alt": "Space ARN84BTH ARN800 measuring head repair wheel alignment equipment AKEI Latvia",
   "meta_description": "Space ARN84BTH ARN800 measuring head repair for wheel alignment system. Electronic diagnostics and component-level repair.",
   "date": "2026-07-06",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Mērgalvas remonts — Space ARN84BTH",
+      "car": "Space ARN84BTH / ARN800 mērgalva",
+      "service": "Riteņu ģeometrijas iekārtu remonts",
+      "description": "Space ARN84BTH riteņu ģeometrijas sistēmas elektroniskās mērgalvas remonts. ARN800 sensora bloks tika izjaukts, diagnosticēts elektronikas līmenī, salabots un pārbaudīts, vai tas pareizi sazinās ar ģeometrijas sistēmu.",
+      "meta_description": "Space ARN84BTH ARN800 mērgalvas remonts riteņu ģeometrijas sistēmai. Elektronikas diagnostika un remonts komponentu līmenī.",
+      "image_alt": "Space ARN84BTH ARN800 mērgalvas remonts, riteņu ģeometrijas iekārta, AKEI Latvija",
+      "tags": [
+        "Space",
+        "ARN84BTH",
+        "ARN800",
+        "riteņu ģeometrija",
+        "mērgalva"
+      ]
+    },
+    "ru": {
+      "title": "Ремонт измерительной головки — Space ARN84BTH",
+      "car": "Измерительная головка Space ARN84BTH / ARN800",
+      "service": "Ремонт стендов сход-развала",
+      "description": "Ремонт электронной измерительной головки стенда сход-развала Space ARN84BTH. Датчик ARN800 разобран, продиагностирован на уровне электроники, отремонтирован и проверен на корректную связь со стендом.",
+      "meta_description": "Ремонт измерительной головки Space ARN84BTH ARN800 для стенда сход-развала. Диагностика электроники и компонентный ремонт.",
+      "image_alt": "Ремонт измерительной головки Space ARN84BTH ARN800, стенд сход-развала, AKEI Латвия",
+      "tags": [
+        "Space",
+        "ARN84BTH",
+        "ARN800",
+        "сход-развал",
+        "измерительная головка"
+      ]
+    }
+  }
 }

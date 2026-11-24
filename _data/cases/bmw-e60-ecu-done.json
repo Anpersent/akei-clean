@@ -18,5 +18,39 @@
   "image_alt": "BMW E60 525d ECU cloning with chip-level data transfer and donor ECU preparation at AKEI Latvia",
   "meta_description": "Full ECU clone for BMW E60 525d with waterlogged unit. Chip-level data extraction and transfer to donor ECU. No dealer coding required. AKEI, Riga.",
   "date": "2025-03-15",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "ECU klonēšana — BMW E60 525d",
+      "car": "BMW E60 525d 2006",
+      "service": "ECU / TCU klonēšana",
+      "description": "Klients atveda slīkušu BMW E60 525d dzinēja vadības bloku. Oriģinālo bloku nevarēja salabot korozijas dēļ uz galvenās procesora plates. Mēs pilnībā nolasījām datus no bojātajām EEPROM un Flash mikroshēmām un pārnesām tos uz donora ECU. Kodēšana pie dīlera nebija vajadzīga. Auto iedarbojās un strādāja nevainojami jau ar pirmo reizi.",
+      "meta_description": "BMW E60 525d slīkuša ECU pilna klonēšana. Datu nolasīšana mikroshēmu līmenī un pārnešana uz donora bloku bez kodēšanas pie dīlera. AKEI, Rīga.",
+      "image_alt": "BMW E60 525d ECU klonēšana ar datu pārnesi mikroshēmu līmenī un donora bloka sagatavošanu, AKEI Latvija",
+      "tags": [
+        "ECU",
+        "BMW",
+        "E60",
+        "klonēšana",
+        "KTAG",
+        "slīcis bloks"
+      ]
+    },
+    "ru": {
+      "title": "Клонирование ЭБУ — BMW E60 525d",
+      "car": "BMW E60 525d 2006",
+      "service": "Клонирование ECU / TCU",
+      "description": "Клиент привёз утопленный ЭБУ от BMW E60 525d. Оригинальный блок не подлежал ремонту из-за коррозии на главной процессорной плате. Мы полностью считали данные с повреждённых микросхем EEPROM и Flash и перенесли их на донорский ЭБУ. Кодирование у дилера не понадобилось. Машина завелась и работала без нареканий с первого раза.",
+      "meta_description": "Полное клонирование утопленного ЭБУ BMW E60 525d. Чтение данных на уровне микросхем и перенос на донорский блок без кодирования у дилера. AKEI, Рига.",
+      "image_alt": "Клонирование ЭБУ BMW E60 525d с переносом данных на уровне микросхем и подготовкой донорского блока, AKEI Латвия",
+      "tags": [
+        "ECU",
+        "BMW",
+        "E60",
+        "клонирование",
+        "KTAG",
+        "после воды"
+      ]
+    }
+  }
 }

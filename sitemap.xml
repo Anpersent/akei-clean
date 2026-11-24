@@ -1,88 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://akei.lv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://akei.lv/#services</loc>
+    <loc>https://akei.lv/lv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://akei.lv/#cases</loc>
+    <loc>https://akei.lv/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://akei.lv/#process</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://akei.lv/#why</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://akei.lv/#contact</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=bmw-e60-ecu-done</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=bmw-e60-ecu-done"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=bmw-e60-ecu-done"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=bmw-e60-ecu-done"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=bmw-e60-ecu-done"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=bmw-e60-ecu-done</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=bmw-e60-ecu-done"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=bmw-e60-ecu-done"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=bmw-e60-ecu-done"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=bmw-e60-ecu-done"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=bmw-e60-ecu-done</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=bmw-e60-ecu-done"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=bmw-e60-ecu-done"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=bmw-e60-ecu-done"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=bmw-e60-ecu-done"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=honda_Goldwing_ECU</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=honda_Goldwing_ECU"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=honda_Goldwing_ECU"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=honda_Goldwing_ECU"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=honda_Goldwing_ECU"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=honda_Goldwing_ECU</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=honda_Goldwing_ECU"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=honda_Goldwing_ECU"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=honda_Goldwing_ECU"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=honda_Goldwing_ECU"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=honda_Goldwing_ECU</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=honda_Goldwing_ECU"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=honda_Goldwing_ECU"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=honda_Goldwing_ECU"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=honda_Goldwing_ECU"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=beissbarth-microtec-510-main-board-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=beissbarth-microtec-510-main-board-repair"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=beissbarth-microtec-510-main-board-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=beissbarth-microtec-510-main-board-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=beissbarth-microtec-510-main-board-repair"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=corghi-em7070-optical-system-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=corghi-em7070-optical-system-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=corghi-em7070-optical-system-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=corghi-em7070-optical-system-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=corghi-em7070-optical-system-repair"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=corghi-em7070-optical-system-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=corghi-em7070-optical-system-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=corghi-em7070-optical-system-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=corghi-em7070-optical-system-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=corghi-em7070-optical-system-repair"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=corghi-em7070-optical-system-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=corghi-em7070-optical-system-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=corghi-em7070-optical-system-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=corghi-em7070-optical-system-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=corghi-em7070-optical-system-repair"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=mercedes-c200-adblue-software-modification</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=mercedes-c200-adblue-software-modification"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=mercedes-c200-adblue-software-modification"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=mercedes-c200-adblue-software-modification"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=mercedes-c200-adblue-software-modification"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=mercedes-c200-adblue-software-modification</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=mercedes-c200-adblue-software-modification"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=mercedes-c200-adblue-software-modification"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=mercedes-c200-adblue-software-modification"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=mercedes-c200-adblue-software-modification"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=mercedes-c200-adblue-software-modification</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=mercedes-c200-adblue-software-modification"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=mercedes-c200-adblue-software-modification"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=mercedes-c200-adblue-software-modification"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=mercedes-c200-adblue-software-modification"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=honda-motorcycle-cluster-odometer-correction</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=honda-motorcycle-cluster-odometer-correction"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=honda-motorcycle-cluster-odometer-correction</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=honda-motorcycle-cluster-odometer-correction</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=honda-motorcycle-cluster-odometer-correction"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=honda-motorcycle-cluster-bench-programming</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=honda-motorcycle-cluster-bench-programming"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=honda-motorcycle-cluster-bench-programming</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=honda-motorcycle-cluster-bench-programming</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=honda-motorcycle-cluster-bench-programming"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=yamaha-motorcycle-cluster-mileage-calibration</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=yamaha-motorcycle-cluster-mileage-calibration</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=yamaha-motorcycle-cluster-mileage-calibration</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=yamaha-motorcycle-cluster-mileage-calibration"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=space-arn84bth-arn800-measuring-head-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=space-arn84bth-arn800-measuring-head-repair"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=space-arn84bth-arn800-measuring-head-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=space-arn84bth-arn800-measuring-head-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=space-arn84bth-arn800-measuring-head-repair"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=beissbarth-servomat-ms63-tyre-changer-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=beissbarth-servomat-ms63-tyre-changer-repair"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://akei.lv/case?case=electrical-retrofit-nardini-ms175e-lathe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/lv/case?case=electrical-retrofit-nardini-ms175e-lathe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://akei.lv/ru/case?case=electrical-retrofit-nardini-ms175e-lathe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://akei.lv/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://akei.lv/lv/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://akei.lv/ru/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://akei.lv/case?case=electrical-retrofit-nardini-ms175e-lathe"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

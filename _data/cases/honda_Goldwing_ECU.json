@@ -21,5 +21,39 @@
   "image_alt": "Honda Goldwing GL1800 ECU repair by AKEI Latvia",
   "meta_description": "Professional Honda Goldwing GL1800 ECU repair including PCB restoration and electronic component replacement.",
   "date": "2026-07-06",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "ECU remonts — Honda Goldwing GL1800",
+      "car": "Honda Goldwing GL1800",
+      "service": "Motociklu ECU remonts",
+      "description": "Dzinēja vadības bloks bija stipri pārklāts ar rūpnīcas kompaundu, tāpēc piekļuve elektroniskajiem komponentiem bija ļoti sarežģīta. ECU tika uzmanīgi atvērts, nesabojājot plati, bojātie elektroniskie komponenti nomainīti un visas funkcijas pilnībā atjaunotas. Pēc remonta bloks izturēja pilnu darbības pārbaudi un tika atdots klientam darba kārtībā.",
+      "meta_description": "Honda Goldwing GL1800 ECU remonts: plates atjaunošana un elektronisko komponentu nomaiņa.",
+      "image_alt": "Honda Goldwing GL1800 ECU remonts, AKEI Latvija",
+      "tags": [
+        "Honda",
+        "Goldwing",
+        "GL1800",
+        "Motocikls",
+        "ECU",
+        "Remonts"
+      ]
+    },
+    "ru": {
+      "title": "Ремонт ЭБУ — Honda Goldwing GL1800",
+      "car": "Honda Goldwing GL1800",
+      "service": "Ремонт мотоциклетных ЭБУ",
+      "description": "Блок управления двигателем был сильно залит заводским компаундом, из-за чего доступ к электронным компонентам был крайне затруднён. ЭБУ аккуратно вскрыт без повреждения платы, неисправные компоненты заменены, все функции полностью восстановлены. После ремонта блок прошёл полную проверку и вернулся к клиенту в рабочем состоянии.",
+      "meta_description": "Ремонт ЭБУ Honda Goldwing GL1800: восстановление платы и замена электронных компонентов.",
+      "image_alt": "Ремонт ЭБУ Honda Goldwing GL1800, AKEI Латвия",
+      "tags": [
+        "Honda",
+        "Goldwing",
+        "GL1800",
+        "Мотоцикл",
+        "ECU",
+        "Ремонт"
+      ]
+    }
+  }
 }

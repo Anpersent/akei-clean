@@ -19,5 +19,37 @@
   "image_alt": "Yamaha motorcycle instrument cluster mileage calibration AKEI Latvia",
   "meta_description": "Yamaha motorcycle instrument cluster mileage calibration with direct PCB access and full display testing.",
   "date": "2026-07-06",
-  "published": true
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Paneļa kalibrēšana — Yamaha motocikls",
+      "car": "Yamaha motocikla mēraparātu panelis",
+      "service": "Motociklu mēraparātu paneļu programmēšana",
+      "description": "Nobraukuma kalibrēšana Yamaha motocikla mēraparātu panelim. Bloks tika izjaukts, pieslēgts tieši platei, oriģinālie atmiņas dati nolasīti, koriģēti un pārbaudīti, pēc tam veikta pilna displeja un indikatoru pārbaude.",
+      "meta_description": "Yamaha motocikla mēraparātu paneļa nobraukuma kalibrēšana ar tiešu piekļuvi platei un pilnu displeja pārbaudi.",
+      "image_alt": "Yamaha motocikla mēraparātu paneļa nobraukuma kalibrēšana, AKEI Latvija",
+      "tags": [
+        "Yamaha",
+        "motocikls",
+        "mēraparātu panelis",
+        "nobraukuma kalibrēšana",
+        "panelis"
+      ]
+    },
+    "ru": {
+      "title": "Калибровка панели — мотоцикл Yamaha",
+      "car": "Приборная панель мотоцикла Yamaha",
+      "service": "Программирование мотоциклетных приборных панелей",
+      "description": "Калибровка пробега приборной панели мотоцикла Yamaha. Блок разобран, подключён напрямую к плате, оригинальные данные памяти считаны, скорректированы и проверены, затем выполнена полная проверка дисплея и индикаторов.",
+      "meta_description": "Калибровка пробега приборной панели мотоцикла Yamaha с прямым доступом к плате и полной проверкой дисплея.",
+      "image_alt": "Калибровка пробега приборной панели мотоцикла Yamaha, AKEI Латвия",
+      "tags": [
+        "Yamaha",
+        "мотоцикл",
+        "приборная панель",
+        "калибровка пробега",
+        "щиток"
+      ]
+    }
+  }
 }

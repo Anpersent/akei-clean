@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Message Sent — AKEI</title>
 <meta name="robots" content="noindex, follow">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&family=Share+Tech+Mono&family=JetBrains+Mono:wght@400&family=DM+Sans:wght@300;400;500&family=Manrope:wght@300;400&display=swap" rel="stylesheet">
 <style>
   :root {
     --black: #0a0a0a;
@@ -20,7 +20,7 @@
   body {
     background: var(--black);
     color: var(--text);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'Manrope', sans-serif;
     font-weight: 300;
     min-height: 100vh;
     display: flex;
@@ -31,7 +31,7 @@
     padding: 48px;
   }
   .logo {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', 'Oswald', sans-serif;
     font-size: 32px;
     letter-spacing: 4px;
     color: var(--white);
@@ -39,15 +39,17 @@
     margin-bottom: 64px;
   }
   .logo span { color: var(--accent); }
+  a.logo, a.logo:hover { background: none; padding: 0; font-family: 'Bebas Neue', 'Oswald', sans-serif; font-size: 32px; letter-spacing: 4px; color: var(--white); }
+  h1 { line-height: 1.05; }
   .icon {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech Mono', 'JetBrains Mono', monospace;
     font-size: 13px;
     letter-spacing: 3px;
     color: var(--accent);
     margin-bottom: 24px;
   }
   h1 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', 'Oswald', sans-serif;
     font-size: clamp(48px, 8vw, 96px);
     color: var(--white);
     line-height: 0.95;
@@ -62,7 +64,7 @@
     margin-bottom: 48px;
   }
   a {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech Mono', 'JetBrains Mono', monospace;
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -77,9 +79,24 @@
 </head>
 <body>
   <a href="/" class="logo">AK<span>E</span>I</a>
-  <div class="icon">// TRANSMISSION RECEIVED</div>
-  <h1>MESSAGE<br><em>SENT.</em></h1>
-  <p>We have received your request and will get back to you shortly. Typical response time is within 24 hours.</p>
-  <a href="/">← Back to Site</a>
+  <div class="icon" id="s-icon">// TRANSMISSION RECEIVED</div>
+  <h1 id="s-h1">MESSAGE<br><em>SENT.</em></h1>
+  <p id="s-p">We have received your request and will get back to you shortly. Typical response time is within 24 hours.</p>
+  <a href="/" id="s-a">← Back to Site</a>
+<script>
+  // The form page remembers its language before sending (Formspree redirects here).
+  var S = {"en": {"title": "Message Sent — AKEI", "icon": "// TRANSMISSION RECEIVED", "h1": "MESSAGE<br><em>SENT.</em>", "p": "We have received your request and will get back to you shortly. Typical response time is within 24 hours.", "a": "← Back to Site", "home": "/"}, "lv": {"title": "Ziņa nosūtīta — AKEI", "icon": "// ZIŅA SAŅEMTA", "h1": "ZIŅA<br><em>NOSŪTĪTA.</em>", "p": "Esam saņēmuši jūsu pieteikumu un drīz sazināsimies. Parasti atbildam 24 stundu laikā.", "a": "← Atpakaļ uz mājaslapu", "home": "/lv/"}, "ru": {"title": "Сообщение отправлено — AKEI", "icon": "// СООБЩЕНИЕ ПОЛУЧЕНО", "h1": "СООБЩЕНИЕ<br><em>ОТПРАВЛЕНО.</em>", "p": "Мы получили вашу заявку и скоро свяжемся с вами. Обычно отвечаем в течение 24 часов.", "a": "← Вернуться на сайт", "home": "/ru/"}};
+  var lang = 'en';
+  try { lang = localStorage.getItem('akei_lang') || ''; } catch (e) {}
+  if (!S[lang]) { var nl = (navigator.language || '').slice(0, 2); lang = S[nl] ? nl : 'en'; }
+  var t = S[lang];
+  document.documentElement.lang = lang;
+  document.title = t.title;
+  document.getElementById('s-icon').textContent = t.icon;
+  document.getElementById('s-h1').innerHTML = t.h1;
+  document.getElementById('s-p').textContent = t.p;
+  var a = document.getElementById('s-a'); a.textContent = t.a; a.href = t.home;
+  document.querySelector('.logo').href = t.home;
+</script>
 </body>
 </html>
