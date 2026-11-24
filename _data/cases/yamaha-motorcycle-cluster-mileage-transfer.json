@@ -1,0 +1,55 @@
+{
+  "title": "Mileage Transfer — Yamaha Motorcycle Cluster",
+  "car": "Yamaha Motorcycle Instrument Cluster",
+  "service": "Instrument Cluster Replacement",
+  "description": "Transfer of the original mileage to a replacement instrument cluster of a Yamaha motorcycle. The unit was disassembled and connected directly to the PCB, the memory was read, the correct mileage was written and verified, followed by complete display and indicator testing.",
+  "tags": [
+    "Yamaha",
+    "motorcycle",
+    "instrument cluster",
+    "cluster replacement",
+    "EEPROM"
+  ],
+  "image": "/images/cases/yamaha-motorcycle-cluster-mileage-transfer-01.webp",
+  "gallery": [
+    "/images/cases/yamaha-motorcycle-cluster-mileage-transfer-01.webp",
+    "/images/cases/yamaha-motorcycle-cluster-mileage-transfer-02.webp",
+    "/images/cases/yamaha-motorcycle-cluster-mileage-transfer-03.webp"
+  ],
+  "image_alt": "Yamaha motorcycle instrument cluster mileage transfer to a replacement unit, AKEI Latvia",
+  "meta_description": "Mileage transfer to a replacement Yamaha motorcycle instrument cluster with direct PCB access and full display testing. AKEI Latvia.",
+  "date": "2026-07-06",
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Nobraukuma pārnešana — Yamaha motocikla panelis",
+      "car": "Yamaha motocikla mēraparātu panelis",
+      "service": "Mēraparātu paneļa nomaiņa",
+      "description": "Oriģinālā nobraukuma pārnešana uz nomainītu Yamaha motocikla mēraparātu paneli. Bloks tika izjaukts un pieslēgts tieši platei, atmiņa nolasīta, pareizais nobraukums ierakstīts un pārbaudīts, pēc tam veikta pilna displeja un indikatoru pārbaude.",
+      "meta_description": "Nobraukuma pārnešana uz nomainītu Yamaha motocikla mēraparātu paneli ar tiešu piekļuvi platei un pilnu displeja pārbaudi. AKEI Latvija.",
+      "image_alt": "Yamaha motocikla mēraparātu paneļa nobraukuma pārnešana uz jaunu bloku, AKEI Latvija",
+      "tags": [
+        "Yamaha",
+        "motocikls",
+        "mēraparātu panelis",
+        "paneļa nomaiņa",
+        "EEPROM"
+      ]
+    },
+    "ru": {
+      "title": "Перенос пробега — приборная панель Yamaha",
+      "car": "Приборная панель мотоцикла Yamaha",
+      "service": "Замена приборной панели",
+      "description": "Перенос оригинального пробега на заменённую приборную панель мотоцикла Yamaha. Блок разобран и подключён напрямую к плате, память считана, правильный пробег записан и проверен, затем выполнена полная проверка дисплея и индикаторов.",
+      "meta_description": "Перенос пробега на заменённую приборную панель мотоцикла Yamaha с прямым доступом к плате и полной проверкой дисплея. AKEI Латвия.",
+      "image_alt": "Перенос пробега на новую приборную панель мотоцикла Yamaha, AKEI Латвия",
+      "tags": [
+        "Yamaha",
+        "мотоцикл",
+        "приборная панель",
+        "замена панели",
+        "EEPROM"
+      ]
+    }
+  }
+}

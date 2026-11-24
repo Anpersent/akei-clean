@@ -1,0 +1,56 @@
+{
+  "title": "Mileage Transfer — Honda Motorcycle Cluster",
+  "car": "Honda Motorcycle Instrument Cluster",
+  "service": "Instrument Cluster Replacement",
+  "description": "The instrument cluster of a Honda motorcycle was replaced, and the original mileage had to be carried over to the new unit. The cluster was disassembled, its electronic memory was accessed directly on the PCB, the mileage was written and verified, and the dashboard was functionally tested before return.",
+  "tags": [
+    "Honda",
+    "motorcycle",
+    "instrument cluster",
+    "cluster replacement",
+    "EEPROM"
+  ],
+  "image": "/images/cases/honda-motorcycle-cluster-mileage-transfer-01.webp",
+  "gallery": [
+    "/images/cases/honda-motorcycle-cluster-mileage-transfer-01.webp",
+    "/images/cases/honda-motorcycle-cluster-mileage-transfer-02.webp",
+    "/images/cases/honda-motorcycle-cluster-mileage-transfer-03.webp",
+    "/images/cases/honda-motorcycle-cluster-mileage-transfer-04.webp"
+  ],
+  "image_alt": "Honda motorcycle instrument cluster mileage transfer to a replacement unit, AKEI Latvia",
+  "meta_description": "Mileage transfer to a replacement Honda motorcycle instrument cluster: direct memory access, data transfer and functional testing. AKEI Latvia.",
+  "date": "2026-07-06",
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "Nobraukuma pārnešana — Honda motocikla panelis",
+      "car": "Honda motocikla mēraparātu panelis",
+      "service": "Mēraparātu paneļa nomaiņa",
+      "description": "Honda motociklam tika nomainīts mēraparātu panelis, un oriģinālais nobraukums bija jāpārnes uz jauno bloku. Panelis tika izjaukts, piekļuve elektroniskajai atmiņai iegūta tieši uz plates, nobraukums ierakstīts un pārbaudīts, un pirms atdošanas panelim veikta darbības pārbaude.",
+      "meta_description": "Nobraukuma pārnešana uz nomainītu Honda motocikla mēraparātu paneli: tieša piekļuve atmiņai, datu pārnese un darbības pārbaude. AKEI Latvija.",
+      "image_alt": "Honda motocikla mēraparātu paneļa nobraukuma pārnešana uz jaunu bloku, AKEI Latvija",
+      "tags": [
+        "Honda",
+        "motocikls",
+        "mēraparātu panelis",
+        "paneļa nomaiņa",
+        "EEPROM"
+      ]
+    },
+    "ru": {
+      "title": "Перенос пробега — приборная панель Honda",
+      "car": "Приборная панель мотоцикла Honda",
+      "service": "Замена приборной панели",
+      "description": "На мотоцикле Honda заменили приборную панель, и оригинальный пробег нужно было перенести на новый блок. Панель разобрана, доступ к электронной памяти получен напрямую на плате, пробег записан и проверен, перед выдачей панель проверена в работе.",
+      "meta_description": "Перенос пробега на заменённую приборную панель мотоцикла Honda: прямой доступ к памяти, перенос данных и проверка работы. AKEI Латвия.",
+      "image_alt": "Перенос пробега на новую приборную панель мотоцикла Honda, AKEI Латвия",
+      "tags": [
+        "Honda",
+        "мотоцикл",
+        "приборная панель",
+        "замена панели",
+        "EEPROM"
+      ]
+    }
+  }
+}
