@@ -1297,7 +1297,7 @@ gtag('config', 'AW-710916766');
       </div>
     </div>
 
-    <form class="contact-form" method="POST" action="https://formspree.io/f/xqewdver">
+    <form class="contact-form" method="POST" action="https://script.google.com/macros/s/AKfycbzUO2wZCS8AwRfyqSg2bPlpdZiVjohl0j4CbiC9oE_WmdBv6cspGfqKWEc-gcbpHPbQyw/exec">
       <input type="hidden" name="_subject" value="Новая заявка с сайта AKEI (RU)">
       <input type="hidden" name="language" value="RU">
       <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
@@ -1428,13 +1428,21 @@ async function loadSettings() {
 // AKEI contact form -> GA4 form_submit
 document.addEventListener('DOMContentLoaded', function () {
   const contactForm = document.querySelector('.contact-form');
+  const FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzUO2wZCS8AwRfyqSg2bPlpdZiVjohl0j4CbiC9oE_WmdBv6cspGfqKWEc-gcbpHPbQyw/exec';
+  const loadedAt = Date.now();
 
   if (contactForm) {
-    contactForm.addEventListener('submit', function () {
-      try { localStorage.setItem('akei_lang', PAGE_LANG); } catch (e) {}
-      gtag('event', 'form_submit', {
-        form_name: 'AKEI Contact Form'
-      });
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      try { localStorage.setItem('akei_lang', PAGE_LANG); } catch (err) {}
+      try { gtag('event', 'form_submit', { form_name: 'AKEI Contact Form' }); } catch (err) {}
+
+      var data = new URLSearchParams(new FormData(contactForm));
+      data.append('elapsed', String(Date.now() - loadedAt));
+
+      fetch(FORM_ENDPOINT, { method: 'POST', mode: 'no-cors', body: data })
+        .catch(function () {})
+        .finally(function () { window.location.href = '/success.html'; });
     });
   }
 });
