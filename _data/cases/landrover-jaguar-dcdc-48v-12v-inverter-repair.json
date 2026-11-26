@@ -1,0 +1,62 @@
+{
+  "title": "DC-DC Converter Repair — Jaguar / Land Rover 48V/12V",
+  "car": "Jaguar / Land Rover 48V–12V DC-DC Converter (Mild Hybrid)",
+  "service": "Module Repair",
+  "description": "A 48V/12V DC-DC converter from a Jaguar / Land Rover mild-hybrid came in with a parasitic drain that flattened the 12V battery overnight. The six-phase board was diagnosed at component level: the fault causing the parasitic draw was located on the low-voltage control side and repaired. Quiescent current was brought back to normal and the converter verified on the bench — the unit no longer discharges the battery.",
+  "tags": [
+    "DC-DC converter",
+    "Jaguar",
+    "Land Rover",
+    "mild hybrid",
+    "48V",
+    "parasitic drain",
+    "module repair"
+  ],
+  "image": "/images/cases/landrover-jaguar-dcdc-48v-12v-inverter-repair-01.webp",
+  "gallery": [
+    "/images/cases/landrover-jaguar-dcdc-48v-12v-inverter-repair-01.webp",
+    "/images/cases/landrover-jaguar-dcdc-48v-12v-inverter-repair-02.webp",
+    "/images/cases/landrover-jaguar-dcdc-48v-12v-inverter-repair-03.webp",
+    "/images/cases/landrover-jaguar-dcdc-48v-12v-inverter-repair-04.webp"
+  ],
+  "image_alt": "Jaguar / Land Rover 48V/12V DC-DC converter component-level repair at AKEI Latvia",
+  "meta_description": "Jaguar / Land Rover 48V/12V DC-DC converter repair — parasitic drain flattening the 12V battery overnight, diagnosed and fixed at component level. AKEI, Riga.",
+  "date": "2026-11-26",
+  "published": true,
+  "i18n": {
+    "lv": {
+      "title": "DC-DC pārveidotāja remonts — Jaguar / Land Rover 48V/12V",
+      "car": "Jaguar / Land Rover 48V–12V DC-DC pārveidotājs (hibrīds)",
+      "service": "Vadības bloku remonts",
+      "description": "48V/12V DC-DC pārveidotājs no Jaguar / Land Rover hibrīda tika atvests ar noplūdi, kas nakts laikā izlādēja 12V akumulatoru līdz nullei. Sešfāžu plate tika pārbaudīta komponentu līmenī; bojājums, kas izraisīja parazītisko noplūdi, tika atrasts zemsprieguma vadības daļā un novērsts. Miera strāva atgriezta normā, pārveidotājs pārbaudīts uz stenda — akumulators vairs neizlādējas.",
+      "meta_description": "Jaguar / Land Rover 48V/12V DC-DC pārveidotāja remonts ar parazītisko noplūdi, kas naktī izlādēja akumulatoru. Diagnostika un remonts komponentu līmenī. AKEI, Rīga.",
+      "image_alt": "Jaguar / Land Rover 48V/12V DC-DC pārveidotāja remonts komponentu līmenī, AKEI Latvija",
+      "tags": [
+        "DC-DC pārveidotājs",
+        "Jaguar",
+        "Land Rover",
+        "hibrīds",
+        "48V",
+        "parazītiskā noplūde",
+        "bloku remonts"
+      ]
+    },
+    "ru": {
+      "title": "Ремонт DC-DC преобразователя — Jaguar / Land Rover 48В/12В",
+      "car": "Преобразователь 48В–12В Jaguar / Land Rover (мягкий гибрид)",
+      "service": "Ремонт блоков управления",
+      "description": "Преобразователь 48В/12В от мягкого гибрида Jaguar / Land Rover приехал с утечкой, которая за ночь высаживала 12-вольтовый аккумулятор в ноль. Шестифазную плату проверили на компонентном уровне: неисправность, вызывавшую паразитную утечку, нашли в низковольтной управляющей части и устранили. Ток покоя вернулся в норму, преобразователь проверен на стенде — аккумулятор больше не разряжается.",
+      "meta_description": "Ремонт DC-DC преобразователя 48В/12В Jaguar / Land Rover с паразитной утечкой, разряжавшей аккумулятор за ночь. Диагностика и ремонт на компонентном уровне. AKEI, Рига.",
+      "image_alt": "Ремонт преобразователя 48В/12В Jaguar / Land Rover на компонентном уровне, AKEI Латвия",
+      "tags": [
+        "DC-DC преобразователь",
+        "Jaguar",
+        "Land Rover",
+        "мягкий гибрид",
+        "48В",
+        "паразитная утечка",
+        "ремонт блоков"
+      ]
+    }
+  }
+}
