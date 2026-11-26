@@ -404,8 +404,8 @@
         l.rel = rel; l.href = href; if (hl) l.hreflang = hl;
         document.head.appendChild(l);
       };
-      add('canonical', SITE + LANG_PREFIX[PAGE_LANG] + 'case?case=' + encodeURIComponent(slug));
-      Object.keys(LANG_PREFIX).forEach(l => add('alternate', SITE + LANG_PREFIX[l] + 'case?case=' + encodeURIComponent(slug), l));
+      add('canonical', SITE + LANG_PREFIX[PAGE_LANG] + 'cases/' + encodeURIComponent(slug));
+      Object.keys(LANG_PREFIX).forEach(l => add('alternate', SITE + LANG_PREFIX[l] + 'cases/' + encodeURIComponent(slug), l));
       add('alternate', SITE + '/case?case=' + encodeURIComponent(slug), 'x-default');
     }
 

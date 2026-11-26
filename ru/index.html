@@ -1396,7 +1396,7 @@ gtag('config', 'AW-710916766');
 
 <script>
 const PAGE_LANG = 'ru';
-const CASE_PATH = '/ru/case.html';
+const CASE_PATH = '/ru/cases/';
 const UI_OPEN = 'Открыть работу: ';
 const UI_EMPTY = 'РАБОТ ПОКА НЕТ';
 
@@ -1443,7 +1443,7 @@ function renderCases(cases) {
     return;
   }
   grid.innerHTML = cases.map(c => `
-    <a class="case-card-link" href="${CASE_PATH}?case=${encodeURIComponent(c.__slug || '')}" aria-label="${UI_OPEN}${escapeHTML(c.title)}">
+    <a class="case-card-link" href="${CASE_PATH}${encodeURIComponent(c.__slug || '')}" aria-label="${UI_OPEN}${escapeHTML(c.title)}">
     <article class="case-card">
       ${c.image
         ? `<img class="case-img" src="${escapeHTML(c.image)}" alt="${escapeHTML(c.image_alt || c.title)}" loading="lazy">`
